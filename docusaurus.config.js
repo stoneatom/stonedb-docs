@@ -10,7 +10,7 @@ const config = {
   title: 'StoneDB',
   tagline: 'StoneDB',
   url: 'https://StoneAtom.github.io',
-  baseUrl: '/stonedb-docs/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
