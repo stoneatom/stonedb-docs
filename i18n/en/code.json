@@ -351,7 +351,7 @@
     "message": "Join our slack workspace!"
   },
   "home.slack.desc": {
-    "message": "Send 'Request to join StoneDB Slack' mail to dev@stonedb.io. We will invite you in."
+    "message": "Click here to join our slack channel."
   },
   "home.release.title": {
     "message": "StoneDB 0.0.1 Release date"
