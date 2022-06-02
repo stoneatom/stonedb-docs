@@ -60,8 +60,19 @@
 
 .ant-zoom-big-fast-enter.ant-zoom-big-fast-enter-active,
 .ant-zoom-big-fast-appear.ant-zoom-big-fast-appear-active {
-  -webkit-animation-name: antZoomBigIn;
-          animation-name: antZoomBigIn;
+  -webkit-animation-name: SafeZoomBigIn;
+          animation-name: SafeZoomBigIn;
   -webkit-animation-play-state: running;
           animation-play-state: running;
+}
+
+@keyframes SafeZoomBigIn {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
