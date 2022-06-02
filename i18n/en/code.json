@@ -231,135 +231,111 @@
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "home.contact.title": {
-    "message": "关注我们"
+    "message": "Stay tuned with StoneDB"
   },
   "home.bug.title": {
-    "message": "提问&Bug反馈"
+    "message": "Questions/bugs?"
   },
   "home.bug.desc": {
-    "message": "想要提出功能需求，使用求助，或者反馈bug?"
+    "message": "Features requests, questions or report bugs? Feel free to open a discussion or file an issue."
   },
   "home.subscribe.title": {
-    "message": "订阅邮件"
+    "message": "Email Subscribe"
   },
   "home.subscribe.desc": {
-    "message": "接受最新功能更新、开源社区活动消息"
+    "message": "Receive news about the latest feature updates, open source community events"
   },
   "home.social": {
-    "message": "关注公众号"
+    "message": "Follow us on WeChat"
   },
   "home.concat": {
-    "message": "关注公众号"
+    "message": "Contact us"
   },
   "home.download.title": {
     "message": "StoneDB for MySQL"
   },
   "home.download.desc": {
-    "message": "一个基于MySQL的开源实时HTAP数据库"
+    "message": "A Real-time HTAP Database"
   },
   "home.download.btn": {
-    "message": "下载"
+    "message": "Download"
   },
   "home.download.start": {
-    "message": "快速上手"
+    "message": "Quick start"
   },
   "home.feat.title": {
-    "message": "版本特性"
+    "message": "Features"
   },
   "home.compatible.title": {
-    "message": "100%兼容MySQL 5.7"
+    "message": "100% compatible with MySQL 5.7"
   },
   "home.compatible.desc": {
-    "message": "基于MySQL5.7版本开发，完全兼容所有MySQL语法与接口，支持从MySQL直接更新升级"
+    "message": ""
   },
   "home.hybrid.title": {
-    "message": "混合事务和分析处理"
+    "message": "Hybrid Transaction and Analytical Process"
   },
   "home.hybrid.desc": {
-    "message": "在MySQL事务处理（TP）功能的基础上，增加分析处理（AP）功能"
+    "message": ""
   },
   "home.realTime.title": {
-    "message": "实时分析，低时延"
+    "message": "Real-time analysis, low delay"
   },
   "home.realTime.desc": {
-    "message": "无需数据提取，直接实时分析，分析操作几乎无延时"
+    "message": ""
   },
   "home.query.title": {
-    "message": "10倍查询速度"
+    "message": "Quering speed is 10 times faster than MySQL"
   },
   "home.query.desc": {
-    "message": "复杂query查询速度可提升10倍"
+    "message": ""
   },
   "home.initial.title": {
-    "message": "10倍初始导入速度"
+    "message": "Initial import speed is 10 times faster than MySQL"
   },
   "home.initial.desc": {
-    "message": "数据库初始导入速度可提升10倍"
+    "message": ""
   },
   "home.storage.title": {
-    "message": "1/10 存储占用"
+    "message": "1/10 storage space"
   },
   "home.storage.desc": {
-    "message": "高效压缩算法，节省大量存储空间"
+    "message": ""
   },
   "less": {
     "message": "Less"
   },
   "more": {
-    "message": "Less"
+    "message": "More"
   },
   "subscribe.message.title": {
-    "message": "加入邮件列表"
+    "message": "Subscribe to the Mailing List"
   },
   "subscribe.message.p.1": {
-    "message": "邮件列表是我们公开讨论并记录的地方。如果你希望："
+    "message": "Mailing list is where we discuss in public and keep everything tracked. You are welcomed to subscribe it if you wish:"
   },
   "subscribe.message.p.2": {
-    "message": "参与讨论开发计划或特定的问题"
+    "message": "To be informed about bug reports or feature requests;"
   },
   "subscribe.message.p.3": {
-    "message": "帮助通过邮件提问的人"
-  },
-  "subscribe.message.note": {
-    "message": "如果你有一个特定的问题要问，建议使用 GitHub Issue 报 Bug 或提需求，这是一种更有效率的方式。"
-  },
-  "subscribe.tip.title": {
-    "message": "如何加入"
-  },
-  "subscribe.tip.p.1": {
-    "message": "给 contact@stonedb.io 发送任意主题的邮件。"
-  },
-  "subscribe.tip.p.2": {
-    "message": "你会收到一封回信，请照着邮件内容操作。"
-  },
-  "subscribe.tip.btn": {
-    "message": "马上订阅"
-  },
-  "home.slack.title": {
-    "message": "Join our slack workspace!"
-  },
-  "home.slack.desc": {
-    "message": ". We will invite you in."
-  },
-  "home.release.title": {
-    "message": "Release AtomStore 1.0.0"
-  },
-  "home.release.desc": {
-    "message": "is released. Go to downloads page to find …"
+    "message": "To discuss about developing plans or specific issues;"
   },
   "subscribe.message.p.4": {
-    "message": "帮助通过邮件提问的人"
+    "message": "To offer helps to those who ask questions by email;"
   },
-  "home.bug.desc.1": {
-    "message": "想要提出功能需求，"
+  "subscribe.message.note": {
+    "message": "If you have a specific bug to report or feature request, we'd suggest you opening an issue on our GitHub repo, which is a more efficient way to report the details."
   },
-  "home.bug.desc.2": {
-    "message": "使用求助"
+  "subscribe.tip.title": {
+    "message": "How To Subscribe"
   },
-  "home.bug.desc.3": {
-    "message": "或者"
+  "subscribe.tip.p.1": {
+    "message": "Email contact@stonedb.io to subscribe."
   },
-  "home.bug.desc.4": {
-    "message": "反馈bug?"
+  "subscribe.tip.p.2": {
+    "message": "You should receive an email and please follow the instructions in that."
+  },
+  "subscribe.tip.btn": {
+    "message": "Subscribe now"
   }
 }
