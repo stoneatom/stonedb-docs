@@ -240,7 +240,7 @@
     "message": "Email Subscribe"
   },
   "home.subscribe.desc": {
-    "message": "Receive news about the latest feature updates, open source community events"
+    "message": "Receive news about the latest feature updates and community events"
   },
   "home.social": {
     "message": "Follow us on WeChat"
@@ -336,27 +336,27 @@
     "message": "Subscribe now"
   },
   "home.bug.desc.1": {
-    "message": "想要提出功能需求，"
+    "message": "Features requests, questions or report bugs? Feel free to "
   },
   "home.bug.desc.2": {
-    "message": "使用求助"
+    "message": "open a discussion "
   },
   "home.bug.desc.3": {
-    "message": "或者"
+    "message": "or "
   },
   "home.bug.desc.4": {
-    "message": "反馈bug?"
+    "message": "file an issue."
   },
   "home.slack.title": {
     "message": "Join our slack workspace!"
   },
   "home.slack.desc": {
-    "message": ". We will invite you in."
+    "message": "Send 'Request to join StoneDB Slack' mail to dev@stonedb.io. We will invite you in."
   },
   "home.release.title": {
-    "message": "Release AtomStore 1.0.0"
+    "message": "StoneDB 0.0.1 Release date"
   },
   "home.release.desc": {
-    "message": "is released. Go to downloads page to find …"
+    "message": "StoneDB will be release at June 30th,2022. Go to downloads page to find …"
   }
 }
