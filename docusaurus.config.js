@@ -9,7 +9,7 @@ const modifyVars = require('./scripts/config.theme.js');
 const config = {
   title: 'StoneDB',
   tagline: 'StoneDB',
-  url: 'https://StoneAtom.github.io',
+  url: 'https://stonedb.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
