@@ -59,7 +59,16 @@ border-radius: 10px;
 
 export const Link = styled(Col)`
   width: 50%;
+  &:nth-child(1){
+    padding-right: 20px;
+  }
+  &:nth-child(2){
+    padding-left: 20px;
+  }
   @media (max-width: 996px){
     width: 100%;
+    &:nth-child(1), &:nth-child(2){
+      padding: 0;
+    }
   }
 `
