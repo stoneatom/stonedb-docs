@@ -1,18 +1,24 @@
 import React from 'react';
-import {Row, Col, Divider, Image} from 'antd';
+import {Row, Divider, Image} from 'antd';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Translate from '@docusaurus/Translate';
+import { useHistory } from '@docusaurus/router';
 import { IconFont } from "../icon";
 import {Title, Context} from '../styles'
 import {DL, DT, DD, Item, US, Link, FT} from './styles';
 
 const Concat = () => {
+  const history = useHistory();
   const {
     i18n: {currentLocale}
   } = useDocusaurusContext();
-  const linkToIssue = () => {
-    window.open("https://github.com/StoneAtom/stonedb/issues", 'blank');
+  const linkToSlack = () => {
+    window.open("https://join.slack.com/t/stonedb/shared_invite/zt-18loq1bo1-nqlQ5qZ4WwTbx5ykIigAcQ", 'blank');
   }
+  const linkToDowload = () => {
+    history.push("/docs/download");
+  }
+
   return (
     <Context>
       <Title>
@@ -58,7 +64,7 @@ const Concat = () => {
           currentLocale === 'en' ? (
             <Link>
               <DL>
-                <DT onClick={linkToIssue}>
+                <DT onClick={linkToSlack}>
                   <IconFont type="icon-a-bianzu18beifen2" />
                   <Translate id="home.slack.title">
                     Join our slack workspace!
@@ -72,7 +78,7 @@ const Concat = () => {
                 <FT type="icon-a-bianzu301" />
               </DL>
               <DL>
-                <DT>
+                <DT onClick={linkToDowload}>
                   <IconFont type="icon-a-bianzu25" />
                   <Translate id="home.release.title">
                     Release AtomStore 1.0.0
