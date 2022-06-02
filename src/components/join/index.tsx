@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import unified from 'unified';
+import {unified} from 'unified';
 import remarkParse from 'remark-parse';
 import { v4 as uuidv4 } from 'uuid';
 import {pickWhen} from '@site/src/utils';

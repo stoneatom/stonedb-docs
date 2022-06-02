@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import unified from 'unified';
+import {unified} from 'unified';
 import remarkParse from 'remark-parse';
 import {reduce} from 'ramda';
 import { v4 as uuidv4 } from 'uuid';
