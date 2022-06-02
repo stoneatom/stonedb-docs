@@ -236,9 +236,6 @@
   "home.bug.title": {
     "message": "Questions/bugs?"
   },
-  "home.bug.desc": {
-    "message": "Features requests, questions or report bugs? Feel free to open a discussion or file an issue."
-  },
   "home.subscribe.title": {
     "message": "Email Subscribe"
   },
@@ -337,5 +334,29 @@
   },
   "subscribe.tip.btn": {
     "message": "Subscribe now"
+  },
+  "home.bug.desc.1": {
+    "message": "想要提出功能需求，"
+  },
+  "home.bug.desc.2": {
+    "message": "使用求助"
+  },
+  "home.bug.desc.3": {
+    "message": "或者"
+  },
+  "home.bug.desc.4": {
+    "message": "反馈bug?"
+  },
+  "home.slack.title": {
+    "message": "Join our slack workspace!"
+  },
+  "home.slack.desc": {
+    "message": ". We will invite you in."
+  },
+  "home.release.title": {
+    "message": "Release AtomStore 1.0.0"
+  },
+  "home.release.desc": {
+    "message": "is released. Go to downloads page to find …"
   }
 }
