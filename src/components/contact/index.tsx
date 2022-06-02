@@ -30,9 +30,12 @@ const Concat = () => {
               </Translate>
             </DT>
             <DD>
-              <Translate id="home.bug.desc">
-                想要提出功能需求，使用求助，或者反馈bug?
+              <Translate id="home.bug.desc.1">
+                想要提出功能需求，
               </Translate>
+              <a href="#" target="_blank">
+                <Translate id="home.bug.desc.2">使用求助</Translate>
+              </a>，<Translate id="home.bug.desc.3">或者</Translate><a href="#" target="_blank"><Translate id="home.bug.desc.4">反馈bug?</Translate></a>
             </DD>
             <FT type="icon-a-bianzu301" />
           </DL>

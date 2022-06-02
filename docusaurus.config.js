@@ -8,9 +8,9 @@ const modifyVars = require('./scripts/config.theme.js');
 
 const config = {
   title: 'StoneDB',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'StoneDB',
   url: 'https://StoneAtom.github.io',
-  baseUrl: '/stonedb/',
+  baseUrl: '/stonedb-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -18,7 +18,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'StoneAtom', // Usually your GitHub org/user name.
-  projectName: 'stonedb', // Usually your repo name.
+  projectName: 'stonedb-docs', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want

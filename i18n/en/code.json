@@ -334,5 +334,32 @@
   },
   "subscribe.tip.btn": {
     "message": "马上订阅"
+  },
+  "home.slack.title": {
+    "message": "Join our slack workspace!"
+  },
+  "home.slack.desc": {
+    "message": ". We will invite you in."
+  },
+  "home.release.title": {
+    "message": "Release AtomStore 1.0.0"
+  },
+  "home.release.desc": {
+    "message": "is released. Go to downloads page to find …"
+  },
+  "subscribe.message.p.4": {
+    "message": "帮助通过邮件提问的人"
+  },
+  "home.bug.desc.1": {
+    "message": "想要提出功能需求，"
+  },
+  "home.bug.desc.2": {
+    "message": "使用求助"
+  },
+  "home.bug.desc.3": {
+    "message": "或者"
+  },
+  "home.bug.desc.4": {
+    "message": "反馈bug?"
   }
 }
