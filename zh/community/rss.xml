@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>StoneDB Blog</title>
-        <link>https://StoneAtom.github.io/stonedb-docs/zh/community</link>
+        <link>https://stonedb.io/zh/community</link>
         <description>StoneDB Blog</description>
         <lastBuildDate>Thu, 02 Jun 2022 02:19:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <language>zh</language>
         <item>
             <title><![CDATA[main]]></title>
-            <link>https://StoneAtom.github.io/stonedb-docs/zh/community/main</link>
+            <link>https://stonedb.io/zh/community/main</link>
             <guid>/main</guid>
             <pubDate>Thu, 02 Jun 2022 02:19:27 GMT</pubDate>
             <description><![CDATA[Community]]></description>
