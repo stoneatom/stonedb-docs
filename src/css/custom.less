@@ -58,21 +58,87 @@
   display: none;
 }
 
-.ant-zoom-big-fast-enter.ant-zoom-big-fast-enter-active,
-.ant-zoom-big-fast-appear.ant-zoom-big-fast-appear-active {
-  -webkit-animation-name: SafeZoomBigIn;
-          animation-name: SafeZoomBigIn;
-  -webkit-animation-play-state: running;
-          animation-play-state: running;
+// .ant-tooltip.ant-tooltip-placement-top.ant-zoom-big-fast-appear.ant-zoom-big-fast-appear-active.ant-zoom-big-fast,
+// .ant-tooltip.ant-tooltip-placement-top.ant-zoom-big-fast-enter.ant-zoom-big-fast-enter-active.ant-zoom-big-fast{
+//   opacity: 0;
+//   animation-name: none;
+//   .ant-tooltip-content{
+//     opacity: 0;
+//   }
+// }
+
+// .ant-tooltip.ant-tooltip-placement-top.ant-zoom-big-fast-appear.ant-zoom-big-fast-appear-active.ant-zoom-big-fast,
+// .ant-tooltip.ant-tooltip-placement-top.ant-zoom-big-fast-enter.ant-zoom-big-fast-enter-active.ant-zoom-big-fast{
+//   animation-play-state: paused;
+// }
+
+
+.ant-zoom-big-appear.ant-zoom-big-appear-active,
+.ant-zoom-big-enter.ant-zoom-big-enter-active,
+.ant-zoom-big-fast-appear.ant-zoom-big-fast-appear-active,
+.ant-zoom-big-fast-enter.ant-zoom-big-fast-enter-active {
+  animation-name: SafeZoomBigIn;
+  animation-play-state: running
+}
+
+.ant-zoom-big-fast-leave.ant-zoom-big-fast-leave-active,
+.ant-zoom-big-leave.ant-zoom-big-leave-active {
+    animation-name: SafeZoomBigOut;
+    animation-play-state: running;
+    pointer-events: none;
+    .ant-tooltip-content{
+          opacity: 0;
+        }
+}
+
+.ant-tooltip.ant-tooltip-placement-top.ant-zoom-big-fast-appear,
+.ant-tooltip.ant-tooltip-placement-top.ant-zoom-big-fast-enter,
+.ant-tooltip.ant-tooltip-placement-top.ant-zoom-big-fast-leave {
+  animation-duration: .001s;
+  animation-fill-mode: both;
+  animation-play-state: paused
+}
+
+
+.ant-tooltip.ant-tooltip-placement-top{
+  animation-name: SafeIn;
+  animation-play-state: running
+}
+
+@keyframes SafeZoomBigOut {
+  0% {
+    transform: scale(1);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
 }
 
 @keyframes SafeZoomBigIn {
   0% {
-    transform: scale(0.8);
-    opacity: 0;
+      opacity: 0;
+      transform: scale(.8)
   }
-  100% {
-    transform: scale(1);
-    opacity: 1;
+  99% {
+    opacity: 0;
+    transform: scale(.8)
+  }
+
+  to {
+      opacity: 0;
+      transform: scale(1)
+  }
+}
+
+@keyframes SafeIn {
+  0% {
+      opacity: 0;
+      transform: scale(.8)
+  }
+  to {
+      opacity: 1;
+      transform: scale(1)
   }
 }

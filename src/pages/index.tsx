@@ -6,6 +6,7 @@ import Download from "@site/src/components/download";
 import Feature from '@site/src/components/feature';
 import Concat from '@site/src/components/contact';
 import Panel from './styles/panel';
+import { Tooltip } from 'antd';
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
