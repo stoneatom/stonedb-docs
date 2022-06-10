@@ -40,6 +40,10 @@ jobs:
           user_email: github@stoneatom.com
 permissions:
   actions: write
+  checks: write
+  contents: write
   deployments: write
   pages: write
-
+  repository-projects: write
+  security-events: write
+  statuses: write
