@@ -36,5 +36,18 @@ jobs:
           # https://github.com/actions/checkout/issues/13#issuecomment-724415212
           # The GH actions bot is used by default if you didn't specify the two fields.
           # You can swap them out with your own user credentials.
-          user_name: leizzboy
-          user_email: leizzboy@gmail.com
+          user_name: stoneatomadmin
+          user_email: github@stoneatom.com
+permissions:
+  actions: write
+  checks: write
+  contents: write
+  deployments: write
+  discussions: write
+  issues: write
+  metadata: read
+  packages: write
+  pages: write
+  repository-projects: write
+  security-events: write
+  statuses: write
