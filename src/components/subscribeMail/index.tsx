@@ -1,6 +1,6 @@
 import React from 'react';
 import {Form} from './form';
-import {Message} from './Message';
+import {Message} from './message';
 import {Tip} from './tip';
 import { ISubscribeForm } from './interface';
 import {IBase} from '../default.interface';
