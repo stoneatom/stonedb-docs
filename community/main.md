@@ -16,7 +16,7 @@ Read on to learn how you can get involved and become part of this amazing commun
 - ![konghaiya](https://avatars.githubusercontent.com/u/106147765?v=4 "title:konghaiya,to://github.com/konghaiya")
 - ![Nliver](https://avatars.githubusercontent.com/u/34496563?v=4 "title:Nliver,to://github.com/Nliver")
 - ![Yeekin-](https://avatars.githubusercontent.com/u/101704468?v=4 "title:Yeekin-,to://github.com/Yeekin-GYJ")
-- ![MaJun](https://avatars.githubusercontent.com/u/64419837?v=4 "title:MaJun,to://github.com/leizzboy")
+- ![FMaJun](https://avatars.githubusercontent.com/u/64419837?v=4 "title:MaJun,to://github.com/leizzboy")
 ```
 
 ## Join the community {#join} 
