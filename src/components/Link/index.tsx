@@ -4,15 +4,42 @@ import { IconFont } from '../icon';
 import {ILink} from './interface';
 import {LinkStyle, LinkIconStyle, LinkBtnStyle, LinkSocialStyle} from './styles';
 
-export const Link: React.FC<ILink> = ({to, children}) => (
-  <LinkStyle to={to}>
-    {children}
-  </LinkStyle>
-)
+const linkTo = (to: string) => {
+  const history = useHistory();
+  if(to.indexOf('://') >= 0) {
+    window.open(to, 'blank')
+  } else {
+    history.push(to);
+  }
+}
 
-export const LinkIcon: React.FC<ILink> = ({to, children}) => {
+const checkInterLink = (to: string) => {
+  return to.indexOf('://') < 0
+}
+
+export const Link: React.FC<ILink> = ({to, children, className}) => {
+  const isInterLink = checkInterLink(to);
   return (
-    <LinkIconStyle to={to}>
+    <LinkStyle 
+      href={isInterLink ? 'javascript:;' : to}
+      target="_blank"
+      onClick={isInterLink ? () =>linkTo(to) : null} 
+      className={className}
+    >
+      {children}
+    </LinkStyle>
+  )
+}
+
+export const LinkIcon: React.FC<ILink> = ({to, children, className}) => {
+  const isInterLink = checkInterLink(to);
+  return (
+    <LinkIconStyle 
+      href={isInterLink ? 'javascript:;' : to}
+      target="_blank"
+      onClick={isInterLink ? () =>linkTo(to) : null}  
+      className={className}
+    >
       {children as string}
       <IconFont type="icon-a-bianzu301" />
     </LinkIconStyle>
@@ -20,22 +47,26 @@ export const LinkIcon: React.FC<ILink> = ({to, children}) => {
 }
 
 export const LinkBtn: React.FC<ILink> = ({to, children}) => {
-  const history = useHistory();
-  const linkTo = () => {
-    to && history.push(to);
-  }
   return (
-    <LinkBtnStyle onClick={linkTo}>
+    <LinkBtnStyle onClick={() => linkTo(to)}>
       {children as string}
       <IconFont type="icon-a-bianzu301" />
     </LinkBtnStyle>
   );
 }
 
-export const LinkSocial: React.FC<ILink> = ({to, icon, children}) => (
-  <LinkSocialStyle to="#">
-    <IconFont type={icon} />
-    <span>{children}</span>
-    <IconFont type="icon-a-bianzu301" />
-  </LinkSocialStyle>
-)
+export const LinkSocial: React.FC<ILink> = ({to, icon, children, className}) => {
+  const isInterLink = checkInterLink(to);
+  return (
+    <LinkSocialStyle 
+      href={isInterLink ? 'javascript:;' : to}
+      target="_blank"
+      onClick={isInterLink ? () =>linkTo(to) : null} 
+      className={className}
+    >
+      <IconFont type={icon} />
+      <span>{children}</span>
+      <IconFont type="icon-a-bianzu301" />
+    </LinkSocialStyle>
+  )
+}

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import {unified} from 'unified';
 import remarkParse from 'remark-parse';
-import {reduce} from 'ramda';
 import { v4 as uuidv4 } from 'uuid';
 import {pickWhen} from '@site/src/utils';
 import MDXA from '@site/src/theme/MDXComponents/A';
@@ -32,12 +31,13 @@ const DocLinks: React.FC<any> = ({children}) => {
       }, cur.children);
       return acc.concat(children);
     }, [node]);
-    setList(node)
+    setList(list)
   }
   
   useEffect(() => {
     init();
-  }, [])
+  }, []);
+
   
 
   return (
@@ -45,14 +45,14 @@ const DocLinks: React.FC<any> = ({children}) => {
       {
         list && list.length && list.map(({children, text, url, title}) => {
           return (
-            <Col>
-              <MDXA key={uuidv4()} to={url} title={title}>{text}</MDXA>
+            <Col key={uuidv4()}>
+              <MDXA  to={url} title={title}>{text}</MDXA>
               <Row>
                 {
                   children && children.length && children.map(({children, url, title}) => {
                     return (
-                      <Col>
-                        <MDXA key={uuidv4()} to={url} title={title}>{children[0].value}</MDXA>
+                      <Col key={uuidv4()}>
+                        <MDXA  to={url} title={title}>{children[0].value}</MDXA>
                       </Col>
                     )
                   })

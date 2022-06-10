@@ -6,7 +6,7 @@ import {ImageStyle, Title, Mask} from './styles';
 export const Image: React.FC<IImage> = ({src, children, className, alt, to}) => {
   const history = useHistory();
   const linkTo = () => {
-    if(to.indexOf('://') >= 0) {
+    if(to.indexOf('//') === 0) {
       window.open(to, 'blank')
     } else {
       history.push(to);

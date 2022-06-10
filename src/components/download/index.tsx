@@ -2,10 +2,12 @@ import React, { useEffect } from 'react';
 import { Button, Space } from 'antd';
 import { DownloadOutlined, RightOutlined } from '@ant-design/icons';
 import Translate from '@docusaurus/Translate';
+import { useHistory } from '@docusaurus/router';
 import { Context } from '../styles';
 import { Item, DownLoadBtn } from './styles';
 
 const Download: React.FC = () => {
+  const history = useHistory();
   const renderAd = async () => {    
     // 实例化 PAG
     const PAG = await (window as any).libpag.PAGInit();
@@ -27,6 +29,14 @@ const Download: React.FC = () => {
     
   }
 
+  const gotoDownload = () => {
+    history.push('/docs/download');
+  }
+
+  const gotoStart = () => {
+    history.push('/docs/intro');
+  }
+
   useEffect(() => {
     if((window as any).libpag) {
       window.addEventListener('load', (event) => {
@@ -46,11 +56,11 @@ const Download: React.FC = () => {
             <Translate id="home.download.desc">一个基于MySQL的开源实时HTAP数据库</Translate>
           </p>
           <Space>
-            <DownLoadBtn size="large" type="primary">
+            <DownLoadBtn size="large" type="primary" onClick={gotoDownload}>
               <Translate id="home.download.btn">下载</Translate>
               <DownloadOutlined />
             </DownLoadBtn>
-            <Button type="text">
+            <Button type="text" onClick={gotoStart}>
               <Translate id="home.download.start">快速上手</Translate>
               <RightOutlined />
             </Button>

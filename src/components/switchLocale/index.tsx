@@ -15,10 +15,6 @@ export const SwitchLocal = () => {
   useEffect(() => {
     setLocale(currentLocale)
   }, []);
-
-  useEffect(() => {
-    console.log('SwitchLocal', currentLocale)
-  }, [currentLocale])
   
   return (
     <SelectStyle bordered={false} value={locale} onChange={changeLocale}>

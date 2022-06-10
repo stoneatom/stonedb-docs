@@ -1,16 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Button} from 'antd';
-import ULink from '@docusaurus/Link';
 
-export const LinkStyle = styled(ULink)`
+export const LinkStyle = styled.a`
   color: #373C43;
   &:hover{
     color: #00A6FB;
   }
 `
 
-export const LinkIconStyle = styled(ULink)`
+export const LinkIconStyle = styled.a`
   height: 50px;
   padding-bottom: 20px;
   line-height: 30px;
@@ -23,6 +22,9 @@ export const LinkIconStyle = styled(ULink)`
   &:hover{
     color: #00A6FB;
     border-color: #00A6FB;
+  }
+  .icon{
+    margin-left: 6px;
   }
 `
 
@@ -40,7 +42,7 @@ export const LinkBtnStyle = styled(Button)`
   margin-left: auto;
   float: right;
 `
-export const LinkSocialStyle = styled(ULink)`
+export const LinkSocialStyle = styled.a`
   margin: 10px;
   height: 100px;
   border-radius: 10px;

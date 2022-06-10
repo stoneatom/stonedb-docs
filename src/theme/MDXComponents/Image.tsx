@@ -10,7 +10,6 @@ export default function MDXImage({className, alt, src, title, ...props}: any): J
     fromPairs,
     modifyKeyName(trim)
   )(title) : title ? {title} : {};
-
   return (
     <Image src={src} className={className} alt={alt} to={data.to}>
         <OmitText size={20}>{data.title}</OmitText>

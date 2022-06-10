@@ -13,7 +13,7 @@ export const SeeMore: React.FC<ISeeMore> = ({children = [], size}) => {
     setMore(!more);
   }
   const Less = <Translate id="less">Less</Translate>;
-  const More = <Translate id="more">Less</Translate>;
+  const More = <Translate id="more">More</Translate>;
   return (
     <>
       {show}

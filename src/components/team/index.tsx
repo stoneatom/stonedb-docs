@@ -36,7 +36,7 @@ const Team: React.FC<any> = ({children}) => {
 
   return (
     <Row>
-      <SeeMore size={4}>
+      <SeeMore size={5}>
         {
           list && list.length ? list.map(({url, alt, title}) => (
             <Col key={uuidv4()}>

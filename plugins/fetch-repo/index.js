@@ -4,14 +4,15 @@ module.exports = () => ({
   name: "fetch-repo",
   async loadContent() {
     const response = await nodeFetch(
-      `https://api.github.com/repos/twbs/bootstrap`,
+      `https://api.github.com/repos/StoneAtom/stonedb`,
     )
 
-    const data = await response.json()
+    const data = await response.json();
 
-    return data
+    return data.message === 'Not Found' ? {} : data;
   },
   async contentLoaded({ content, actions }) {
+    console.log('content', content)
     const { setGlobalData } = actions
     setGlobalData({ repo: content })
   },
