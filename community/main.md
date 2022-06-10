@@ -16,7 +16,7 @@ Read on to learn how you can get involved and become part of this amazing commun
 - ![konghaiya](https://avatars.githubusercontent.com/u/106147765?v=4 "title:konghaiya,to://github.com/konghaiya")
 - ![Nliver](https://avatars.githubusercontent.com/u/34496563?v=4 "title:Nliver,to://github.com/Nliver")
 - ![Yeekin-](https://avatars.githubusercontent.com/u/101704468?v=4 "title:Yeekin-,to://github.com/Yeekin-GYJ")
-- ![FMaJun](https://avatars.githubusercontent.com/u/64419837?v=4 "title:MaJun,to://github.com/leizzboy")
+- ![MaJun](https://avatars.githubusercontent.com/u/64419837?v=4 "title:MaJun,to://github.com/leizzboy")
 ```
 
 ## Join the community {#join} 
@@ -42,43 +42,41 @@ Read on to learn how you can get involved and become part of this amazing commun
 ```custom-subscribe
 ```
 
-## 如何贡献  [查看全部](#123 "type:btnMore") {#share}
+## How to contribute  [SEE MORE](#123 "type:btnMore") {#share}
 ```custom-docLinksList
-- [dowload](/docs/download "type:export")
-    - [ggggggg](#123 "type:export")
-    - [ggggggg](#123 "type:export")
-    - [ggggggg](#123 "type:export")
-- [ggggggg](#123 "type:export")
-    - [ggggggg](#123 "type:export")
-    - [ggggggg](#123 "type:export")
-    - [ggggggg](#123 "type:export")
-- [ggggggg](#123 "type:export")
-    - [ggggggg](#123 "type:export")
-    - [ggggggg](#123 "type:export")
-    - [ggggggg](#123 "type:export")
-- [ggggggg](#123 "type:export")
-    - [ggggggg](#123 "type:export")
-    - [ggggggg](#123 "type:export")
-    - [ggggggg](#123 "type:export")
+- [Experience StoneDB](/docs/download "type:export")
+- [Sign the CLA](#123 "type:export")
+- [Join the StoneDB Community](#123 "type:export")
+    - [Participate in Community Activitie](#123 "type:export")
+    - [Engage in Community Contribution](#123 "type:export")
+        - [Submit and Address Issues](#123 "type:export")
+        - [Contribute Code](#123 "type:export")
+        - [Review Code](#123 "type:export")
+        - [Contribute a Package](#123 "type:export")
+        - [Participate in Non-Code Contributions](#123 "type:export")
+        - [Community Security Issues](#123 "type:export")
+        - [Test](#123 "type:export")
+- [Grow with the Community](#123 "type:export")
+    - [Community Roles](#123 "type:export")
+    - [Technical Committee](#123 "type:export")
+    - [Project Management Committee](#123 "type:export")
 ```
 
 
-## 代码标准  [查看全部](#123 "type:btnMore") {#standard}
+## Code Standard  [SEE MORE](#123 "type:btnMore") {#standard}
 ```custom-docLinksList
-- [ggggggg](#123 "type:export")
-    - [ggggggg](#123 "type:export")
-    - [ggggggg](#123 "type:export")
-    - [ggggggg](#123 "type:export")
-- [ggggggg](#123 "type:export")
-    - [ggggggg](#123 "type:export")
-    - [ggggggg](#123 "type:export")
-    - [ggggggg](#123 "type:export")
-- [ggggggg](#123 "type:export")
-    - [ggggggg](#123 "type:export")
-    - [ggggggg](#123 "type:export")
-    - [ggggggg](#123 "type:export")
-- [ggggggg](#123 "type:export")
-    - [ggggggg](#123 "type:export")
-    - [ggggggg](#123 "type:export")
-    - [ggggggg](#123 "type:export")
+- [Code Style](#123 "type:export")
+- [File](#123 "type:export")
+- [Indentation](#123 "type:export")
+- [Space](#123 "type:export")
+- [Line Break](#123 "type:export")
+- [Statement](#123 "type:export")
+- [Naming Conventions](#123 "type:export")
+- [Language features](#123 "type:export")
+- [Compatibility](#123 "type:export")
+- [Variable](#123 "type:export")
+- [Condition](#123 "type:export")
+- [Type Conversion](#123 "type:export")
+- [String, Object, Arra](#123 "type:export")
+- [Others](#123 "type:export")
 ```
