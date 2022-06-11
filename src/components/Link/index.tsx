@@ -6,6 +6,9 @@ import {LinkStyle, LinkIconStyle, LinkBtnStyle, LinkSocialStyle} from './styles'
 
 const linkTo = (to: string) => {
   const history = useHistory();
+  if(!to) {
+    return false;
+  }
   if(to.indexOf('://') >= 0) {
     window.open(to, 'blank')
   } else {
@@ -14,16 +17,20 @@ const linkTo = (to: string) => {
 }
 
 const checkInterLink = (to: string) => {
-  return to.indexOf('://') < 0
+  return to ? to.indexOf('://') < 0 : true
 }
 
 export const Link: React.FC<ILink> = ({to, children, className}) => {
   const isInterLink = checkInterLink(to);
+  let options = isInterLink ? {
+    onClick: () => linkTo(to)
+  } : {
+    href: to,
+    target:"_blank"
+  }
   return (
     <LinkStyle 
-      href={isInterLink ? 'javascript:;' : to}
-      target="_blank"
-      onClick={isInterLink ? () =>linkTo(to) : null} 
+      {...options}
       className={className}
     >
       {children}
@@ -33,11 +40,15 @@ export const Link: React.FC<ILink> = ({to, children, className}) => {
 
 export const LinkIcon: React.FC<ILink> = ({to, children, className}) => {
   const isInterLink = checkInterLink(to);
+  let options = isInterLink ? {
+    onClick: () => linkTo(to)
+  } : {
+    href: to,
+    target:"_blank"
+  }
   return (
     <LinkIconStyle 
-      href={isInterLink ? 'javascript:;' : to}
-      target="_blank"
-      onClick={isInterLink ? () =>linkTo(to) : null}  
+      {...options}  
       className={className}
     >
       {children as string}
@@ -57,11 +68,15 @@ export const LinkBtn: React.FC<ILink> = ({to, children}) => {
 
 export const LinkSocial: React.FC<ILink> = ({to, icon, children, className}) => {
   const isInterLink = checkInterLink(to);
+  let options = isInterLink ? {
+      onClick: () => linkTo(to)
+    } : {
+      href: to,
+      target:"_blank"
+    }
   return (
     <LinkSocialStyle 
-      href={isInterLink ? 'javascript:;' : to}
-      target="_blank"
-      onClick={isInterLink ? () =>linkTo(to) : null} 
+      {...options} 
       className={className}
     >
       <IconFont type={icon} />
