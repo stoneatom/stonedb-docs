@@ -20,7 +20,7 @@
   background-position: right center;
   background-size: 100% 100%;
   margin: 60px auto;
-  margin-left: -12%;
+  margin-left: -60%;
   @media (max-width: 996px){
     width: 100%;
     margin-left: 0;
@@ -78,6 +78,7 @@ export const TipStyle = styled(SubscribeMail.Tip)`
 export const Doc = styled(DocContext)`
   height: 100%;
   margin-right: -12%;
+  padding-left: 12%;
   @media (max-width: 996px){
     margin-right: 0;
   }
@@ -86,7 +87,8 @@ export const Mail = styled.div`
   height: 100%;
   width: 100%;
   > div:first-child {
-    width: 60%;
+    width: 55%;
+    padding-right: 30px;
   }
   @media (max-width: 996px){
     > div:first-child {

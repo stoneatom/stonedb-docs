@@ -26,7 +26,6 @@ export default function MDXA({url = '', children, title, ...props}: any): JSX.El
   const isLinkIcon = data.type === 'export';
   const isLinkBtnMore = data.type === 'btnMore';
   data.local = data.local || currentLocale;
-  console.log('url', url)
   return ( 
     <>
       {

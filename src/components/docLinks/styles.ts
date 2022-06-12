@@ -14,4 +14,15 @@ export const Col = styled.div`
   width: 50%;
   padding: 0 20px;
   padding-left: 30px;
+  overflow: hidden;
+  display: block;
+  a {
+    width: 100%;
+    line-height: auto;
+    align-items: center;
+    height: auto;
+    min-height: 50px;
+    flex: 1;
+    width: 100%;
+  }
 `

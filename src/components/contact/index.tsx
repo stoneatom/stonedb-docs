@@ -39,9 +39,9 @@ const Concat = () => {
               <Translate id="home.bug.desc.1">
                 想要提出功能需求，
               </Translate>
-              <a href="#" target="_blank">
+              <a href="https://github.com/stoneatom/stonedb-docs/discussions" target="_blank">
                 <Translate id="home.bug.desc.2">使用求助</Translate>
-              </a>，<Translate id="home.bug.desc.3">或者</Translate><a href="#" target="_blank"><Translate id="home.bug.desc.4">反馈bug?</Translate></a>
+              </a>，<Translate id="home.bug.desc.3">或者</Translate><a href="https://github.com/stoneatom/stonedb-docs/issues" target="_blank"><Translate id="home.bug.desc.4">反馈bug?</Translate></a>
             </DD>
             <FT type="icon-a-bianzu301" />
           </DL>

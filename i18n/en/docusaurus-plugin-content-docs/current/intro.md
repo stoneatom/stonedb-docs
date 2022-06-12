@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# StoneDB Introduction
+# StoneDB Introduction {#community}
 
 StoneDB is an open-source hybrid transaction/analytical processing (HTAP) database designed and developed by StoneAtom based on the MySQL kernel. It is the first database of this type launched in China. StoneDB can be seamlessly switched from MySQL. It features optimal performance, financial-grade high availability, and real-time analytics, offering you a one-stop solution to process online transactional processing (OLTP), online analytical processing (OLAP), and HTAP workloads.
 StoneDB is highly compatible with the MySQL 5.6 and 5.7 protocols, the MySQL ecosystem, and common MySQL features and syntaxes. You can use tools and clients in the MySQL ecosystem on StoneDB, such as Navicat, Workbench, mysqldump, and mydumper. In addition, all workloads on StoneDB can be run on MySQL.
@@ -14,5 +14,4 @@ StoneDB has the following main features:
 - Maintenance-free: StoneDB ensures robust stability, requiring no dedicated O&M personnel.
 - Minimal storage cost: StoneDB supports a high compression ratio which ranges from 10:1 to 40:1. This greatly reduces the disk space required for storing data.
 - Low migration cost: StoneDB is independently deployed, requiring no extra dependencies. You can use the same tools and clients on StoneDB as those you use in the MySQL ecosystem.
-
 

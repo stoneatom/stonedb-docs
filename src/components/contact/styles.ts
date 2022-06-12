@@ -9,7 +9,7 @@ export const DL = styled.dl`
 `
 
 export const DD = styled.dd`
-  width: 292px;
+  width: 100%;
   font-size: 14px;
   font-weight: 300;
   line-height: 30px;
