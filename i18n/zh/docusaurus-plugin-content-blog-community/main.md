@@ -51,7 +51,7 @@ StoneDB 社区由用户、贡献者和社区独有的文化所组成。他们将
 - [参与StoneDB社区](#123 "type:export")
     - [参与社区活动](#123 "type:export")
     - [参与社区贡献](#123 "type:export")
-        - [提交Issue/处理issue任务](#123 "type:export")
+        - [提交issue/处理issue任务](#123 "type:export")
         - [贡献编码](#123 "type:export")
         - [贡献软件包](#123 "type:export")
         - [检视代码](#123 "type:export")
