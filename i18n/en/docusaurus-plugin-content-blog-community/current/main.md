@@ -78,6 +78,6 @@ Read on to learn how you can get involved and become part of this amazing commun
 - [Variable](#123 "type:export")
 - [Condition](#123 "type:export")
 - [Type Conversion](#123 "type:export")
-- [String, Object, Arra](#123 "type:export")
+- [String, Object, Array](#123 "type:export")
 - [Others](#123 "type:export")
 ```
