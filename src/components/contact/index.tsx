@@ -24,7 +24,7 @@ const Concat = () => {
     <Context>
       <Title>
         <Translate id="home.contact.title">
-          关注我们
+          Stay tuned with StoneDB
         </Translate>
       </Title>
       <Row>
@@ -33,7 +33,7 @@ const Concat = () => {
             <DT>
               <IconFont type="icon-a-bianzu251" />
               <Translate id="home.bug.title">
-                提问&Bug反馈
+                Questions/bugs?
               </Translate>
             </DT>
             <DD>

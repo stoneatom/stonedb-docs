@@ -7,7 +7,6 @@ import MDXA from '@site/src/theme/MDXComponents/A';
 import {First, Second, Third, Fourth} from './styles';
 
 const DocLinks: React.FC<any> = ({children, type}) => {
-  console.log('DocLinks', type)
   const [list, setList] = useState(null);
   function init() {
     const node = unified().use(remarkParse).parse(children);
