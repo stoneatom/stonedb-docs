@@ -9,3 +9,4 @@ export * from './Link';
 export * from './icon';
 export * from './switchLocale'
 export * from './omit';
+export * from './emailModal'

@@ -4,6 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Translate from '@docusaurus/Translate';
 import { useHistory } from '@docusaurus/router';
 import { IconFont } from "../icon";
+import {EmailModal} from '../emailModal';
 import {Title, Context} from '../styles'
 import {DL, DT, DD, Item, US, Link, FT} from './styles';
 
@@ -46,12 +47,14 @@ const Concat = () => {
             <FT type="icon-a-bianzu301" />
           </DL>
           <DL>
-            <DT>
-              <IconFont type="icon-a-bianzu24" />
-              <Translate id="home.subscribe.title">
-                订阅邮件
-              </Translate>
-            </DT>
+            <EmailModal>
+              <DT>
+                <IconFont type="icon-a-bianzu24" />
+                <Translate id="home.subscribe.title">
+                  订阅邮件
+                </Translate>
+              </DT>
+            </EmailModal>
             <DD>
               <Translate id="home.subscribe.desc">
                 接受最新功能更新、开源社区活动消息

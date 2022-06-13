@@ -6,59 +6,42 @@
  */
 
 import React, { useState } from 'react';
-import { Tooltip, Space, Alert } from 'antd';
-import { CloseCircleOutlined } from '@ant-design/icons';
+import { Tooltip } from 'antd';
 import type {Props} from '@theme/Footer/LinkItem';
-import {IconFont, SubscribeMail} from '@site/src/components';
-import {Link, EmailModal, LinkItemStyle, EmailModalContext} from './styles';
+import {IconFont, EmailModal} from '@site/src/components';
+import {Link, LinkItemStyle} from './styles';
 
 export default function FooterLinkItem({item}: Props): JSX.Element {
   const {to, href, label, icon, onclick, ...props} = item;
-  const [isModalVisible, setIsModalVisible] = useState(false);
-
-  const showModal = () => {
-    setIsModalVisible(true);
-  };
-
-  const handleCancel = () => {
-    setIsModalVisible(false);
-  };
-
-  const clickMap = {
-    'subscribe': showModal
-  }
-
   return (
     <LinkItemStyle>
       {
         label && label !== ' ' ? (
-          <Tooltip title={label}>
-            <Link to={href} onClick={clickMap[onclick as string] || null}>
-              <IconFont type={icon as string} />
-            </Link>
-          </Tooltip>
+          <>
+            {
+              onclick && onclick === 'subscribe' ? (
+                <Tooltip title={label}>
+                  <EmailModal>
+                    <Link to="">
+                      <IconFont type={icon as string} />
+                    </Link>
+                  </EmailModal>
+                </Tooltip>
+              ) : (
+                <Tooltip title={label}>
+                  <Link to={href}>
+                    <IconFont type={icon as string} />
+                  </Link>
+                </Tooltip>
+              )
+            }
+          </>
+          
         ) : (
           <Link to={href}>
             <IconFont type={icon as string} />
           </Link>
         )
-      }
-      {
-        onclick ? (
-          <EmailModal
-            title={null}
-            visible={isModalVisible}
-            width={776}
-            closeIcon={<CloseCircleOutlined />}
-            footer={null}
-            onCancel={handleCancel}
-          >
-            <EmailModalContext>
-              <SubscribeMail.Tip/>
-              <Alert className='message' message={<SubscribeMail.Message />} type="info" />
-            </EmailModalContext>
-          </EmailModal>
-        ) : null
       }
     </LinkItemStyle>
   );
