@@ -303,10 +303,10 @@
     "message": "高效压缩算法，节省大量存储空间"
   },
   "less": {
-    "message": "Less"
+    "message": "收起"
   },
   "more": {
-    "message": "More"
+    "message": "展开"
   },
   "subscribe.message.title": {
     "message": "加入邮件列表"
@@ -324,7 +324,7 @@
     "message": "帮助通过邮件提问的人"
   },
   "subscribe.message.note": {
-    "message": "如果你有一个特定的问题要问，建议使用 GitHub Issue 报 Bug 或提需求，这是一种更有效率的方式。"
+    "message": "如果你有一个特定的问题要问，建议使用 GitHub issue 报 Bug 或提需求，这是一种更有效率的方式。"
   },
   "subscribe.tip.title": {
     "message": "如何加入"
