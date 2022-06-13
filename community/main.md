@@ -26,7 +26,7 @@ Read on to learn how you can get involved and become part of this amazing commun
 - [Reddit](https://www.reddit.com/user/StoneDBTeam "icon:icon-a-bianzu3")
 - [新浪微博](https://weibo.com/u/7756824587 "icon:icon-a-bianzu31,local:zh")
 - [Twitter](https://twitter.com/StoneDB2022 "icon:icon-a-bianzu2")
-```
+``` -->
 
 <!-- ## Events {#event}
 ```custom-eventList
@@ -37,11 +37,11 @@ Read on to learn how you can get involved and become part of this amazing commun
 -   ![jack](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn5YgX25LGOMVCsNUJazU-Lq5N7bX8gEoyKw&usqp=CAU)
     May 15th Event
     Event exampleEvent exampleEvent exampleEvent example
-``` -->
+```
 
-<!-- 
+
 ```custom-subscribe
-``` -->
+```
 
 ## How to contribute  [SEE MORE](#123 "type:btnMore") {#share}
 ```custom-docLinksList
@@ -65,7 +65,7 @@ Read on to learn how you can get involved and become part of this amazing commun
 
 
 ## Code Standard  [SEE MORE](#123 "type:btnMore") {#standard}
-```custom-docLinksList
+```custom-docLinksList fourth
 - [Code Style](#123 "type:export")
 - [File](#123 "type:export")
 - [Indentation](#123 "type:export")

@@ -1,6 +1,6 @@
  import styled from "styled-components";
 
-export const Row = styled.div`
+export const First = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -8,21 +8,84 @@ export const Row = styled.div`
   overflow: hidden;
   position: relative;
   margin: 10px -20px;
+  @media (max-width: 996px){
+    margin: 10px 0;
+  }
+  a{
+    padding-top: 20px;
+  }
+  > div {
+    width: 50%;
+    padding: 0 20px;
+    @media (max-width: 996px){
+      width: 100%;
+      padding: 0;
+    }
+  }
+
 `
 
-export const Col = styled.div`
-  width: 50%;
-  padding: 0 20px;
-  padding-left: 30px;
+export const Second = styled.div`
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
-  display: block;
-  a {
+  padding-left: 20px;
+  > div{
     width: 100%;
-    line-height: auto;
-    align-items: center;
-    height: auto;
-    min-height: 50px;
-    flex: 1;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
 `
+
+export const Third = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  overflow: hidden;
+  a{
+    display: inline-block;
+    margin: 0 20px;
+    border-width: 0;
+    @media (max-width: 996px){
+      display: flex;
+      width: 100%;
+      margin: 0;
+      margin-left: 20px;
+      border-width: 1px;
+    }
+    span{
+      opacity: 0;
+      @media (max-width: 996px){
+        opacity: 1;
+      }
+    }
+    &:hover{
+      border-width: 1px;
+      span{
+        opacity: 1;
+      }
+    }
+  }
+`
+
+export const Fourth = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  overflow: hidden;
+  margin: 10px -20px;
+  @media (max-width: 996px){
+    margin: 10px 0;
+  }
+  > a {
+    width: 20%;
+    margin: 0 20px;
+    padding-top: 20px;
+    @media (max-width: 996px){
+      width: 100%;
+      margin: 0;
+    }
+  }
+`;

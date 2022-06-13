@@ -6,7 +6,6 @@
     "css": "node ./scripts/css.js",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "prebuild": "cp -r community/**.md i18n/en/docusaurus-plugin-content-blog-community/current && cp -r docs/**.md i18n/en/docusaurus-plugin-content-docs/current",
     "build": "NODE_ENV=development && docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",

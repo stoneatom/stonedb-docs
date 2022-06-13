@@ -150,9 +150,7 @@ const config = {
         path: 'community',
         id: 'community',
         routeBasePath: 'community',
-        blogSidebarCount: 0
-        // remarkPlugins: [ulRemark],
-        // rehypePlugins: [katex],
+        blogSidebarCount: 0,
       }
     ],
     // [
