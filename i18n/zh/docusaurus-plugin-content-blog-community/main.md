@@ -67,7 +67,7 @@ StoneDB 社区由用户、贡献者和社区独有的文化所组成。他们将
 
 
 ## 代码标准  [查看全部](#123 "type:btnMore") {#standard}
-```custom-docLinksList
+```custom-docLinksList fourth
 - [代码规范](#123 "type:export")
 - [源文件](#123 "type:export")
 - [缩进](#123 "type:export")
