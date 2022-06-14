@@ -130,9 +130,9 @@ const config = {
         
       },
     }),
-  scripts: [
-    'https://unpkg.com/libpag@latest/lib/libpag.min.js',
-  ],
+  // scripts: [
+  //   'https://unpkg.com/libpag@latest/lib/libpag.min.js',
+  // ],
   plugins: [
     require.resolve("./plugins/fetch-repo/index"),
     [
