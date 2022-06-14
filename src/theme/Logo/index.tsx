@@ -39,7 +39,7 @@ export default function Logo(props: Props): JSX.Element {
 
   const location = useLocation();
 
-  const isActive = location.pathname === '/'
+  const isActive = location.pathname === '/' || location.pathname === '/zh/'
 
   return (
     <Link
