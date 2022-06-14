@@ -255,7 +255,7 @@
     "message": "StoneDB for MySQL"
   },
   "home.download.desc": {
-    "message": "一个基于MySQL的开源实时HTAP数据库"
+    "message": "一个基于 MySQL 的开源实时 HTAP 数据库"
   },
   "home.download.btn": {
     "message": "下载"
@@ -267,16 +267,16 @@
     "message": "版本特性"
   },
   "home.compatible.title": {
-    "message": "100%兼容MySQL 5.7"
+    "message": "100%兼容 MySQL 5.7"
   },
   "home.compatible.desc": {
-    "message": "基于MySQL5.7版本开发，完全兼容所有MySQL语法与接口，支持从MySQL直接更新升级"
+    "message": "基于 MySQL 5.7版本开发，完全兼容所有 MySQL 语法与接口，支持从 MySQL 直接更新升级"
   },
   "home.hybrid.title": {
     "message": "混合事务和分析处理"
   },
   "home.hybrid.desc": {
-    "message": "在MySQL事务处理（TP）功能的基础上，增加分析处理（AP）功能"
+    "message": "在 MySQL 事务处理（TP）功能的基础上，增加分析处理（AP）功能"
   },
   "home.realTime.title": {
     "message": "实时分析，低时延"
@@ -288,7 +288,7 @@
     "message": "10倍查询速度"
   },
   "home.query.desc": {
-    "message": "复杂query查询速度可提升10倍"
+    "message": "复杂 query 查询速度可提升10倍"
   },
   "home.initial.title": {
     "message": "10倍初始导入速度"
