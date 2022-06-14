@@ -44,7 +44,6 @@ const Concat = () => {
                 <Translate id="home.bug.desc.2">使用求助</Translate>
               </a>，<Translate id="home.bug.desc.3">或者</Translate><a href="https://github.com/stoneatom/stonedb-docs/issues" target="_blank"><Translate id="home.bug.desc.4">反馈bug?</Translate></a>
             </DD>
-            <FT type="icon-a-bianzu301" />
           </DL>
           <DL>
             <EmailModal>
@@ -60,7 +59,6 @@ const Concat = () => {
                 接受最新功能更新、开源社区活动消息
               </Translate>
             </DD>
-            <FT type="icon-a-bianzu301" />
           </DL>
         </Link>
         {
@@ -78,7 +76,6 @@ const Concat = () => {
                   . We will invite you in.
                   </Translate>
                 </DD>
-                <FT type="icon-a-bianzu301" />
               </DL>
               <DL>
                 <DT onClick={linkToDowload}>
@@ -92,7 +89,6 @@ const Concat = () => {
                     is released. Go to downloads page to find …
                   </Translate>
                 </DD>
-                <FT type="icon-a-bianzu301" />
               </DL>
             </Link>
           ) : (
@@ -111,7 +107,7 @@ const Concat = () => {
                   联系我们
                 </Translate>
                 <span className='more'>
-                  dev@StoneDB.io
+                  dev-subscribe@stonedb.io
                 </span>
               </Item>
             </US>
