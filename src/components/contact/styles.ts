@@ -13,7 +13,9 @@ export const DD = styled.dd`
   font-size: 14px;
   font-weight: 300;
   line-height: 30px;
+  height: 60px;
   color: var(--safe-text-color-secondary);
+  padding: 0 32px;
   @media (max-width: 996px){
     width: 100%;
   }

@@ -52,7 +52,7 @@ const config = {
           showLastUpdateTime: true,
           editLocalizedFiles: false,
           editUrl: ({versionDocsDirPath, docPath}) =>
-            `https://https://github.com/StoneAtom/stonedb/edit/main/website/${versionDocsDirPath}/${docPath}`,
+            `https://github.com/stoneatom/stonedb-docs/edit/main/${versionDocsDirPath}/${docPath}`,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.less'),
@@ -153,15 +153,6 @@ const config = {
         blogSidebarCount: 0,
       }
     ],
-    // [
-    //   require.resolve("./plugins/community/index"),
-    //   {
-    //     path: 'community',
-    //     id: 'community',
-    //     routeBasePath: 'community',
-    //     sidebarPath: false,
-    //   }
-    // ]
   ],
 };
 
