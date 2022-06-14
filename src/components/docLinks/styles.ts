@@ -13,6 +13,9 @@ export const First = styled.div`
   }
   a{
     padding-top: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #373C43;
   }
   > div {
     width: 50%;
@@ -35,6 +38,11 @@ export const Second = styled.div`
     display: flex;
     flex-direction: column;
   }
+  a{
+    font-size: 18px;
+    font-weight: 400;
+    color: #646A7D;
+  }
 `
 
 export const Third = styled.div`
@@ -47,6 +55,9 @@ export const Third = styled.div`
     display: inline-block;
     margin: 0 20px;
     border-width: 0;
+    font-size: 14px;
+    font-weight: 300;
+    color: #646A7D;
     @media (max-width: 996px){
       display: flex;
       width: 100%;

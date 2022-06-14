@@ -4,26 +4,18 @@ import { IconFont } from '../icon';
 import {ILink} from './interface';
 import {LinkStyle, LinkIconStyle, LinkBtnStyle, LinkSocialStyle} from './styles';
 
-const linkTo = (to: string) => {
-  const history = useHistory();
-  if(!to) {
-    return false;
-  }
-  if(to.indexOf('://') >= 0) {
-    window.open(to, 'blank')
-  } else {
-    history.push(to);
-  }
-}
 
 const checkInterLink = (to: string) => {
   return to ? to.indexOf('://') < 0 : true
 }
 
 export const Link: React.FC<ILink> = ({to, children, className}) => {
+  const history = useHistory();
   const isInterLink = checkInterLink(to);
   let options = isInterLink ? {
-    onClick: () => linkTo(to)
+    onClick: () => {
+      history.push(to);
+    }
   } : {
     href: to,
     target:"_blank"
@@ -39,9 +31,12 @@ export const Link: React.FC<ILink> = ({to, children, className}) => {
 }
 
 export const LinkIcon: React.FC<ILink> = ({to, children, className}) => {
+  const history = useHistory();
   const isInterLink = checkInterLink(to);
   let options = isInterLink ? {
-    onClick: () => linkTo(to)
+    onClick: () => {
+      history.push(to);
+    }
   } : {
     href: to,
     target:"_blank"
@@ -58,8 +53,9 @@ export const LinkIcon: React.FC<ILink> = ({to, children, className}) => {
 }
 
 export const LinkBtn: React.FC<ILink> = ({to, children}) => {
+  const history = useHistory();
   return (
-    <LinkBtnStyle onClick={() => linkTo(to)}>
+    <LinkBtnStyle onClick={() => history.push(to)}>
       {children as string}
       <IconFont type="icon-a-bianzu301" />
     </LinkBtnStyle>
@@ -67,9 +63,12 @@ export const LinkBtn: React.FC<ILink> = ({to, children}) => {
 }
 
 export const LinkSocial: React.FC<ILink> = ({to, icon, children, className}) => {
+  const history = useHistory();
   const isInterLink = checkInterLink(to);
   let options = isInterLink ? {
-      onClick: () => linkTo(to)
+      onClick: () => {
+        history.push(to);
+      }
     } : {
       href: to,
       target:"_blank"
