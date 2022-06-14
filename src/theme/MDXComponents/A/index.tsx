@@ -11,7 +11,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import {modifyKeyName} from '@site/src/utils';
 import {LinkSocial, Link, LinkIcon, LinkBtn} from '@site/src/components';
 
-export default function MDXA({url, children, title, ...props}: any): JSX.Element {
+export default function MDXA({url = '', children, title, ...props}: any): JSX.Element {
   const {
     i18n: {currentLocale}
   } = useDocusaurusContext();

@@ -3,6 +3,7 @@ import { Button, Space } from 'antd';
 import { DownloadOutlined, RightOutlined } from '@ant-design/icons';
 import Translate from '@docusaurus/Translate';
 import { useHistory } from '@docusaurus/router';
+import {loadScript} from '@site/src/utils';
 import { Context } from '../styles';
 import { Item, DownLoadBtn } from './styles';
 
@@ -38,12 +39,14 @@ const Download: React.FC = () => {
   }
 
   useEffect(() => {
-    if((window as any).libpag) {
-      window.addEventListener('load', (event) => {
-        renderAd();
-      });
-    }
-  }, [(window as any).libpag])
+    loadScript('//unpkg.com/libpag@latest/lib/libpag.min.js' ,  {id: 'libpag'}).then((res) => {
+      if((window as any).libpag) {
+        window.addEventListener('load', (event) => {
+          renderAd();
+        });
+      }
+    });
+  }, []);
 
   return (
     <Context>
@@ -68,6 +71,7 @@ const Download: React.FC = () => {
         </Item>
         <Item>
           <canvas className="canvas" id="pag"></canvas>
+          {/* <script src="https://unpkg.com/libpag@latest/lib/libpag.min.js"></script> */}
         </Item>
       </Space>
     </Context>

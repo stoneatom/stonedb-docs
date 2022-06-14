@@ -4,6 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Translate from '@docusaurus/Translate';
 import { useHistory } from '@docusaurus/router';
 import { IconFont } from "../icon";
+import {EmailModal} from '../emailModal';
 import {Title, Context} from '../styles'
 import {DL, DT, DD, Item, US, Link, FT} from './styles';
 
@@ -23,7 +24,7 @@ const Concat = () => {
     <Context>
       <Title>
         <Translate id="home.contact.title">
-          关注我们
+          Stay tuned with StoneDB
         </Translate>
       </Title>
       <Row>
@@ -32,32 +33,32 @@ const Concat = () => {
             <DT>
               <IconFont type="icon-a-bianzu251" />
               <Translate id="home.bug.title">
-                提问&Bug反馈
+                Questions/bugs?
               </Translate>
             </DT>
             <DD>
               <Translate id="home.bug.desc.1">
                 想要提出功能需求，
               </Translate>
-              <a href="#" target="_blank">
+              <a href="https://github.com/stoneatom/stonedb-docs/discussions" target="_blank">
                 <Translate id="home.bug.desc.2">使用求助</Translate>
-              </a>，<Translate id="home.bug.desc.3">或者</Translate><a href="#" target="_blank"><Translate id="home.bug.desc.4">反馈bug?</Translate></a>
+              </a>，<Translate id="home.bug.desc.3">或者</Translate><a href="https://github.com/stoneatom/stonedb-docs/issues" target="_blank"><Translate id="home.bug.desc.4">反馈bug?</Translate></a>
             </DD>
-            <FT type="icon-a-bianzu301" />
           </DL>
           <DL>
-            <DT>
-              <IconFont type="icon-a-bianzu24" />
-              <Translate id="home.subscribe.title">
-                订阅邮件
-              </Translate>
-            </DT>
+            <EmailModal>
+              <DT>
+                <IconFont type="icon-a-bianzu24" />
+                <Translate id="home.subscribe.title">
+                  订阅邮件
+                </Translate>
+              </DT>
+            </EmailModal>
             <DD>
               <Translate id="home.subscribe.desc">
                 接受最新功能更新、开源社区活动消息
               </Translate>
             </DD>
-            <FT type="icon-a-bianzu301" />
           </DL>
         </Link>
         {
@@ -75,7 +76,6 @@ const Concat = () => {
                   . We will invite you in.
                   </Translate>
                 </DD>
-                <FT type="icon-a-bianzu301" />
               </DL>
               <DL>
                 <DT onClick={linkToDowload}>
@@ -89,7 +89,6 @@ const Concat = () => {
                     is released. Go to downloads page to find …
                   </Translate>
                 </DD>
-                <FT type="icon-a-bianzu301" />
               </DL>
             </Link>
           ) : (
@@ -108,7 +107,7 @@ const Concat = () => {
                   联系我们
                 </Translate>
                 <span className='more'>
-                  dev@StoneDB.io
+                  dev-subscribe@stonedb.io
                 </span>
               </Item>
             </US>

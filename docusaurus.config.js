@@ -52,7 +52,7 @@ const config = {
           showLastUpdateTime: true,
           editLocalizedFiles: false,
           editUrl: ({versionDocsDirPath, docPath}) =>
-            `https://https://github.com/StoneAtom/stonedb/edit/main/website/${versionDocsDirPath}/${docPath}`,
+            `https://github.com/stoneatom/stonedb-docs/edit/main/${versionDocsDirPath}/${docPath}`,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.less'),
@@ -130,9 +130,9 @@ const config = {
         
       },
     }),
-  scripts: [
-    'https://unpkg.com/libpag@latest/lib/libpag.min.js',
-  ],
+  // scripts: [
+  //   'https://unpkg.com/libpag@latest/lib/libpag.min.js',
+  // ],
   plugins: [
     require.resolve("./plugins/fetch-repo/index"),
     [
@@ -150,19 +150,9 @@ const config = {
         path: 'community',
         id: 'community',
         routeBasePath: 'community',
-        // remarkPlugins: [ulRemark],
-        // rehypePlugins: [katex],
+        blogSidebarCount: 0,
       }
     ],
-    // [
-    //   require.resolve("./plugins/community/index"),
-    //   {
-    //     path: 'community',
-    //     id: 'community',
-    //     routeBasePath: 'community',
-    //     sidebarPath: false,
-    //   }
-    // ]
   ],
 };
 

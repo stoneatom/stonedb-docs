@@ -3,11 +3,11 @@ import { Space, Divider } from "antd";
 import { SendOutlined } from '@ant-design/icons';
 import Translate from '@docusaurus/Translate';
 import {IBase} from '../default.interface';
-import { SubscribeBtn } from './styles';
+import { SubscribeBtn, BR } from './styles';
 
 export const Tip: React.FC<IBase> = ({className}) => {
   const onSubscribe = () => {
-    window.open('mailto:contact@stonedb.io?subject=Subscribe to the mailing list', 'blank');
+    window.open('mailto:dev-subscribe@stonedb.io?subject=Subscribe to the mailing list', 'blank');
   }
   return (
     <Space direction="vertical" className={className}>
@@ -23,7 +23,7 @@ export const Tip: React.FC<IBase> = ({className}) => {
           <Translate id="subscribe.tip.p.2">你会收到一封回信，请照着邮件内容操作。</Translate>
         </dd>
       </dl>
-      <Divider dashed={true} className="br" />
+      <BR dashed={true} className="br" />
       <SubscribeBtn size="middle" type="primary" onClick={onSubscribe}>
         <SendOutlined />
         <Translate id="subscribe.tip.btn">马上订阅</Translate>

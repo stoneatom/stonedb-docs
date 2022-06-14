@@ -9,12 +9,10 @@ const Subscribe: React.FC = () => {
       {
         () => (
           <SubscribeStyle>
-            <Doc>
-              <Mail>
-                <Message />
-                <TipStyle />
-              </Mail>
-            </Doc>
+            <Mail>
+              <Message />
+              <TipStyle />
+            </Mail>
           </SubscribeStyle>
         )
       }

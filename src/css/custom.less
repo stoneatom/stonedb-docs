@@ -20,6 +20,14 @@
   }
 }
 
+.communityRow{
+  flex-wrap: nowrap;
+  width: 100%;
+  @media (max-width: 996px){
+    flex-wrap: wrap;
+  }
+}
+
 .canvas{
   width: 700px;
   height: 700px;
@@ -29,11 +37,15 @@
   height: 50px;
   font-size: 50px;
   margin-right: 50px;
+  width: 182px;
   img{
     vertical-align: top;
   }
 }
 
+.navbar__link:hover, .navbar__link--active{
+  font-weight: bold;
+}
 
 @media (max-width: 996px){
   .hideInMobile, .navbar__title{

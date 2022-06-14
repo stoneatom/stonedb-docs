@@ -73,6 +73,7 @@ export default function BlogPostItem(props: Props): JSX.Element {
       itemProp="blogPost"
       itemScope
       itemType="http://schema.org/BlogPosting">
+
       {image && (
         <meta itemProp="image" content={withBaseUrl(image, {absolute: true})} />
       )}
