@@ -1,5 +1,6 @@
 ---
-sidebar_position: 1
+id: intro
+sidebar_position: 1.1
 ---
 
 # StoneDB简介
