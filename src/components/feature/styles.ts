@@ -20,6 +20,7 @@ export const Item = styled.div`
   justify-content: flex-start;
   align-items: center;
   width: 300px;
+  text-align: center;
   .icon{
     font-size: 150px;
     width: 150px;

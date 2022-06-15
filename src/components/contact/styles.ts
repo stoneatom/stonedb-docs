@@ -57,6 +57,14 @@ export const US = styled(Col)`
 padding: 30px;
 background: var(--safe-alert-info-bg-color);
 border-radius: 10px;
+@media (max-width: 996px){
+  background: none;
+  width: 100%;
+  margin-left: 0;
+  flex: 1;
+  max-width: 100%;
+  padding: 0;
+}
 `
 
 export const Link = styled(Col)`

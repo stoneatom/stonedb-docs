@@ -26,7 +26,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'System requirements',
-      items: ['supported_servers_and_oss', 'download'],
+      items: ['supported-servers-and-oss', 'download'],
     },
     {
       type: 'doc',
