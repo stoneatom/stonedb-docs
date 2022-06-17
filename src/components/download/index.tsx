@@ -2,13 +2,14 @@ import React, { useEffect } from 'react';
 import { Button, Space } from 'antd';
 import { DownloadOutlined, RightOutlined } from '@ant-design/icons';
 import Translate from '@docusaurus/Translate';
-import { useHistory } from '@docusaurus/router';
+import { useHistory, useLocation } from '@docusaurus/router';
 import {loadScript} from '@site/src/utils';
 import { Context } from '../styles';
 import { Item, DownLoadBtn } from './styles';
 
 const Download: React.FC = () => {
   const history = useHistory();
+  const location = useLocation()
   const renderAd = async () => {    
     // 实例化 PAG
     const PAG = await (window as any).libpag.PAGInit();
@@ -39,14 +40,13 @@ const Download: React.FC = () => {
   }
 
   useEffect(() => {
-    loadScript('//unpkg.com/libpag@latest/lib/libpag.min.js' ,  {id: 'libpag'}).then((res) => {
-      if((window as any).libpag) {
-        window.addEventListener('load', (event) => {
-          renderAd();
-        });
-      }
-    });
-  }, []);
+    if(location.pathname === '/' || location.pathname === '/zh/') {
+      loadScript('//unpkg.com/libpag@latest/lib/libpag.min.js' ,  {id: 'libpag'}).then((res) => {
+        renderAd();
+      });
+    }
+    
+  }, [location.pathname]);
 
   return (
     <Context>

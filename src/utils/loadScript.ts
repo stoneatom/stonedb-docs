@@ -117,6 +117,9 @@ export function loadScript(
   attrs: Partial<AllowListsAttributes>,
 ): Promise<HTMLScriptElement> {
   return new Promise((resolve, reject) => {
+    if(document.getElementById(attrs.id as string)) {
+      resolve(document.getElementById(attrs.id as string)[0])
+    }
     const scriptNode: HTMLScriptElement = document.createElement('script');
     scriptNode.id = attrs.id as string;
 

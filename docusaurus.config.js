@@ -6,6 +6,11 @@ const modifyVars = require('./scripts/config.theme.js');
 // const math = require('./src/remark/remark-math');
 // const imageList = require('./src/remark/imageList');
 
+const isDev = process.env.NODE_ENV === 'development';
+
+const isDeployPreview =
+  !!process.env.NETLIFY && process.env.CONTEXT === 'deploy-preview';
+
 const config = {
   title: 'StoneDB',
   tagline: 'StoneDB',
@@ -152,6 +157,61 @@ const config = {
         routeBasePath: 'community',
         blogSidebarCount: 0,
       }
+    ],
+    [
+      'pwa',
+      {
+        debug: isDeployPreview,
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString',
+        ],
+        // swRegister: false,
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: 'img/stoneDB.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: 'manifest.json',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-capable',
+            content: 'yes',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-status-bar-style',
+            content: '#000',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: 'img/stoneDB.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'mask-icon',
+            href: 'img/stoneDB.png',
+            color: 'rgb(62, 204, 94)',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileImage',
+            content: 'img/stoneDB.png',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileColor',
+            content: '#000',
+          },
+        ],
+      },
     ],
   ],
 };
