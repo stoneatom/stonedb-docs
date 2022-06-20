@@ -30,8 +30,8 @@ const sidebars = {
     },
     {
       type: 'doc',
-      id: 'download', // 文档 ID
-      label: 'Download', // 侧边栏标签
+      id: 'download', // doc ID
+      label: 'Download', // sidebar label
     },
   ],
 };

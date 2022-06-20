@@ -1,6 +1,6 @@
 ---
 id: intro
-sidebar_position: 1
+sidebar_position: 1.1
 ---
 
 # StoneDB Introduction {#community}
