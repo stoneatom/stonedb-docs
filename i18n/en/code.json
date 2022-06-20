@@ -312,13 +312,13 @@
     "message": "Mailing list is where we discuss in public and keep everything tracked. You are welcomed to subscribe it if you wish:"
   },
   "subscribe.message.p.2": {
-    "message": "To be informed about bug reports or feature requests;"
+    "message": "· To be informed about bug reports or feature requests;"
   },
   "subscribe.message.p.3": {
-    "message": "To discuss about developing plans or specific issues;"
+    "message": "· To discuss about developing plans or specific issues;"
   },
   "subscribe.message.p.4": {
-    "message": "To offer helps to those who ask questions by email;"
+    "message": "· To offer helps to those who ask questions by email;"
   },
   "subscribe.message.note": {
     "message": "If you have a specific bug to report or feature request, we'd suggest you opening an issue on our GitHub repo, which is a more efficient way to report the details."

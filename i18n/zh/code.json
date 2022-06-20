@@ -315,13 +315,13 @@
     "message": "邮件列表是我们公开讨论并记录的地方。如果你希望："
   },
   "subscribe.message.p.2": {
-    "message": "随时了解 Bug 以及新需求的报告"
+    "message": "· 随时了解 Bug 以及新需求的报告"
   },
   "subscribe.message.p.3": {
-    "message": "参与讨论开发计划或特定的问题"
+    "message": "· 参与讨论开发计划或特定的问题"
   },
   "subscribe.message.p.4": {
-    "message": "帮助通过邮件提问的人"
+    "message": "· 帮助通过邮件提问的人"
   },
   "subscribe.message.note": {
     "message": "如果你有一个特定的问题要问，建议使用 GitHub issue 报 Bug 或提需求，这是一种更有效率的方式。"
