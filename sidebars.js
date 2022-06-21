@@ -34,6 +34,6 @@ const sidebars = {
 //       label: 'Download', // sidebar label
 //     },
 //   ],
-// };
+};
 
 module.exports = sidebars;
