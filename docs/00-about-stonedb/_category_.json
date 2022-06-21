@@ -1,10 +1,5 @@
 {
     "position": 1,
     "label": "About StoneDB",
-    "collapsible": true,
-    "link": {
-        "type": "doc",
-        "id": "intro",
-        "title": "About StoneDB"
-      }
+    "collapsible": true
 }
