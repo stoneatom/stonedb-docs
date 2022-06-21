@@ -1,10 +1,5 @@
 {
     "position": 1,
     "label": "关于StoneDB",
-    "collapsible": true,
-    "collapsed": false,
-    "className": "red",
-    "customProps": {
-      "description": "关于StoneDB"
-    }
+    "collapsible": true
 }
