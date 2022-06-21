@@ -7,16 +7,15 @@ labels: ["question"]
 
 ## General Question
 
-<!--
-
 Before asking a question, make sure you have:
 
 - Searched existing Stack Overflow questions.
 - Googled your question.
-- Searched open and closed [GitHub issues](https://github.com/stoneatom/stonedb/issues)
+- Searched open and closed [GitHub issues](https://github.com/stoneatom/stonedb-docs/issues)
+- Searched our discussions [Discussion](https://github.com/stoneatom/stonedb-docs/discussions)
 - Read the documentation:
   - [StoneDB Readme](https://github.com/stoneatom/stonedb)
-  - [StoneDB Doc](https://github.com/stoneatom/stonedb/docs)
+  - [StoneDB Documentation Readme](https://github.com/stoneatom/stonedb-docs)
 
--->
+
 

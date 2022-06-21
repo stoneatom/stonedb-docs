@@ -1,7 +1,7 @@
 ---
 name: "\U0001F680 Feature request"
 title: "feature: "
-about: Suggest an idea for StoneDB
+about: Suggest an idea for StoneDB Docs
 labels: ["feature"]
 ---
 
