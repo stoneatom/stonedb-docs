@@ -14,7 +14,7 @@ The following table describes the configuration requirements for a development o
 | --- | --- | --- | --- |
 | 2 cores+ | 2 GB+ | 10 GB+ | Megabit network card |
 
-:::note
+:::caution
 
 If the development or test environment is deployed on a virtual machine, the AVX instruction set must be enabled. Otherwise, StoneDB cannot be installed.
 
@@ -28,7 +28,7 @@ The following table describes the configuration requirements for a production en
 | --- | --- | --- | --- |
 | 8 cores+ | 8 GB+ | 100 GB+ | Gigabit network card |
 
-:::note
+:::tip
 
 We recommend you use higher configuration in your production environment.
 
