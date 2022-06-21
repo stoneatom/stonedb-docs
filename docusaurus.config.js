@@ -88,8 +88,7 @@ const config = {
           },
           {
             label: 'Docs',
-            type: 'doc',
-            docId: 'intro',
+            to: '/docs/00-about-stonedb/intro',
             key: 'Docs',
           },
           {
