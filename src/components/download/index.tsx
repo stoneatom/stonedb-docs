@@ -41,7 +41,7 @@ const Download: React.FC = () => {
 
   useEffect(() => {
     if(location.pathname === '/' || location.pathname === '/zh/') {
-      loadScript('//unpkg.com/libpag@latest/lib/libpag.min.js' ,  {id: 'libpag'}).then((res) => {
+      loadScript('//static.stoneatom.com/libpag.4.0.5.min.js' ,  {id: 'libpag'}).then((res) => {
         renderAd();
       });
     }

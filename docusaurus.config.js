@@ -44,6 +44,9 @@ const config = {
       },
     },
   },
+  staticDirectories: [
+    'static',
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -55,9 +58,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
-          editLocalizedFiles: false,
-          editUrl: ({versionDocsDirPath, docPath}) =>
-            `https://github.com/stoneatom/stonedb-docs/edit/main/${versionDocsDirPath}/${docPath}`,
+          editLocalizedFiles: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.less'),
