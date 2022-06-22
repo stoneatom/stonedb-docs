@@ -8,7 +8,7 @@ sidebar_position: 3.2
 This topic presents some examples to show you that the StoneDB storage engine has superior performance than InnoDB on processing bulk insert of data, compressing data, and executing analytical queries.
 
 ## Step 1. Deploy a test environment
-Before using StoneDB, prepare your test environment according to instructions provided in [Quick Deployment](https://stoneatom.yuque.com/staff-ft8n1u/dghuxr/pv8ath) and start StoneDB.
+Before using StoneDB, prepare your test environment according to instructions provided in [Quick Deployment](quick-deployment.md) and start StoneDB.
 
 ## Step 2. Prepare test data
 Perform the following steps to generate test data.

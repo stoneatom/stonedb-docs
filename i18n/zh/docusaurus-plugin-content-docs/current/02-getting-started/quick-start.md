@@ -7,7 +7,7 @@ sidebar_position: 3.2
 
 本文的目的是通过简单的演示，让使用者体验StoneDB在大批量数据插入、数据压缩比和分析查询方面与InnoDB相比具有较高的性能。
 ## 第一步. 部署试用环境
-在试用 StoneDB 功能前，请按照[快速部署](https://stoneatom.yuque.com/staff-ft8n1u/dghuxr/cumqaz)中的步骤准备 StoneDB 测试环境并启动实例。
+在试用 StoneDB 功能前，请按照[快速部署](quick-deployment.md)中的步骤准备 StoneDB 测试环境并启动实例。
 ## 第二步. 准备测试数据
 通过以下步骤，将生成一个测试数据集用于体验 StoneDB 功能。
 ### 1) 前提条件
