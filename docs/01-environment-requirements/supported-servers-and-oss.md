@@ -2,6 +2,7 @@
 id: supported-servers-and-OSs
 sidebar_position: 2.1
 ---
+# Support Servers and OSs
 
 StoneDB is an open-source hybrid transaction/analytical processing (HTAP) database designed and developed by StoneAtom based on the MySQL kernel. It can be deployed and run on 64-bit x86 servers and supports most mainstream network hardware and Linux OSs.
 

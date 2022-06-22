@@ -2,6 +2,7 @@
 id: server-configuration-requirements
 sidebar_position: 2.2
 ---
+# Server Configuration Requirements
 
 This topic describes the configuration requirements for a development or test environment and a production environment.
 
