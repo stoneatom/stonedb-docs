@@ -59,6 +59,12 @@ const config = {
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           editLocalizedFiles: true,
+          editUrl: ({versionDocsDirPath, docPath, locale}) => {
+            if(locale !== 'en') {
+              return `https://github.com/stoneatom/stonedb-docs/blob/main/i18n/${locale}/docusaurus-plugin-content-docs/current/${docPath}`
+            }
+            return `https://github.com/stoneatom/stonedb-docs/edit/main/${versionDocsDirPath}/${docPath}`
+          },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.less'),
@@ -89,7 +95,7 @@ const config = {
           },
           {
             label: 'Docs',
-            to: '/docs/intro',
+            to: '/docs/about-stonedb/intro',
             key: 'Docs',
           },
           {

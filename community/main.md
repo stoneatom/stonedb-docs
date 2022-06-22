@@ -3,7 +3,7 @@ The StoneDB community is comprised of users, contributors, and culture that unit
 
 Read on to learn how you can get involved and become part of this amazing community.
 
-## Team {#team} 
+## Contributors {#team} 
 ```custom-teamList
 - ![RingsC](https://avatars.githubusercontent.com/u/5336722?v=4 "title:RingsC,to://github.com/ringsc")
 - ![hustjieke](https://avatars.githubusercontent.com/u/18331104?v=4 "title:hustjieke,to://github.com/hustjieke")

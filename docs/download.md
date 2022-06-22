@@ -1,5 +1,6 @@
 ---
-sidebar_position: 2
+id: download
+sidebar_position: 100
 ---
 
 # Please wait for release
