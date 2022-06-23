@@ -23,7 +23,7 @@ StoneDB 社区由用户、贡献者和社区独有的文化所组成。他们将
 ## 加入社区 {#join} 
 ```custom-joinList
 - [Github Discussion](https://github.com/stoneatom/stonedb-docs/discussions "icon:icon-a-bianzu16beifen1")
-- [Slack Channel](https://join.slack.com/t/stonedb/shared_invite/zt-18loq1bo1-nqlQ5qZ4WwTbx5ykIigAcQ "icon:icon-a-bianzu18beifen2")
+- [Slack Channel](https://stonedb.slack.com/join/shared_invite/zt-1ba2lpvbo-Vqq62DJcxViyxCZmp7Rimw#/shared-invite/email "icon:icon-a-bianzu18beifen2")
 - [Reddit](https://www.reddit.com/user/StoneDBTeam "icon:icon-a-bianzu3")
 - [新浪微博](https://weibo.com/u/7756824587 "icon:icon-a-bianzu31,local:zh")
 - [Twitter](https://twitter.com/StoneDB2022 "icon:icon-a-bianzu2")

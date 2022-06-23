@@ -28,7 +28,7 @@ export const FooterLink = () => {
             <MailOutlined />
           </Link>
         </Tooltip>
-        <Link to="https://join.slack.com/t/stonedb/shared_invite/zt-18loq1bo1-nqlQ5qZ4WwTbx5ykIigAcQ">
+        <Link to="https://stonedb.slack.com/join/shared_invite/zt-1ba2lpvbo-Vqq62DJcxViyxCZmp7Rimw#/shared-invite/email">
           <SlackOutlined />
         </Link>
         <Tooltip title="">
