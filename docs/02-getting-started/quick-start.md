@@ -25,7 +25,7 @@ In the test environment, create a StoneDB table and a InnoDB table. Ensure the f
 
 Create a database named **test**.
 
-```
+```sql
 create database test DEFAULT CHARACTER SET utf8mb4;
 ```
 
@@ -33,7 +33,7 @@ create database test DEFAULT CHARACTER SET utf8mb4;
 
 In database **test**, create a table named **t_test**.
 
-```
+```sql
 use test
 CREATE TABLE t_user(
   id INT NOT NULL AUTO_INCREMENT,
@@ -50,7 +50,7 @@ CREATE TABLE t_user(
 
 Create a stored procedure that is used to generate a table containing randomly generated names of persons.
 
-```
+```sql
 DELIMITER //
     create PROCEDURE add_user(in num INT)
     BEGIN
@@ -83,7 +83,8 @@ DELIMITER ;
 ## Step 3. Test insert performance
 
 Call the stored procedure to insert 10,000,000 rows of data.
-```
+
+```sql
 > call add_user_innodb(10000000);
 Query OK, 1 row affected (24 min 46.62 sec)
 
@@ -94,7 +95,8 @@ According to the returned result, StoneDB takes 9 minutes and 21 seconds, while 
 
 ## Step 4. Test data compression efficiency
 Compress the inserted data.
-```
+
+```sql
 > select count(*) from t_user_innodb;
 +----------+
 | count(*) |
@@ -123,7 +125,8 @@ According to the returned result, the data size after compression in StoneDB is 
 ## Step 5. Test performance on processing aggregate queries
 
 Execute an aggregate query.
-```
+
+```sql
 > select first_name,count(*) from t_user group by first_name order by 1; 
 +------------+----------+
 | first_name | count(*) |
