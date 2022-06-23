@@ -23,7 +23,7 @@ const CustomComponentMap = {
 
 export default function MDXPre(props: any): JSX.Element {
   const {children, className, originalType, metastring} = props.children.props;
-  const isOrigin = className.indexOf('custom') < 0;
+  const isOrigin = className ? className.indexOf('custom') < 0 : true;
   const CustomComponent = CustomComponentMap[className];
   return (
     <>
