@@ -12,7 +12,7 @@ StoneDB采用基于知识网格技术和列式存储引擎。该存储引擎为�
 
 # 核心特性
 - 原生集成MySQL
-StoneDB是在原生的MySQL中加入列式存储引擎，最终集成为HTAP数据库，因此是高度兼容MySQL的。支持标准数据库接口，包括ODBC、JDBC和本地连接。支持API接口，包括C、C++、C#、Java、PHP、Perl等。StoneDB全面支持ANSI SQL-92标准和SQL-99扩展标准中视图和存过程，这种支持使得现有应用程序无需修改应用代码即可使用StoneDB，从而可实现与MySQL的无缝切换。
+StoneDB是在原生的MySQL中加入列式存储引擎，最终集成为HTAP数据库，因此是高度兼容MySQL的。支持标准数据库接口，包括ODBC、JDBC和本地连接。支持API接口，包括C、C++、C#、Java、PHP、Perl等。StoneDB全面支持ANSI SQL-92标准和SQL-99扩展标准中视图和存储过程，这种支持使得现有应用程序无需修改应用代码即可使用StoneDB，从而可实现与MySQL的无缝切换。
 
 - 实时HTAP
 同时提供行式存储引擎InnoDB和列式存储引擎StoneDB，通过binlog从InnoDB复制数据，保证行式存储引擎InnoDB和列式存储引擎StoneDB之间的数据强一致性。
