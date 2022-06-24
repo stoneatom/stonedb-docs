@@ -1,5 +1,5 @@
 ---
-id: compile-using-centos7
+id: compile-using-redhat7
 sidebar_position: 5.13
 ---
 
