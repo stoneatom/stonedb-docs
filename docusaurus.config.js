@@ -117,7 +117,7 @@ const config = {
         links: [
           {
             label: '@StoneDB2022',
-            href: 'https://twitter.com/StoneDB2022',
+            href: 'https://twitter.com/StoneDataBase',
             icon: 'icon-a-bianzu2'
           },
           {
