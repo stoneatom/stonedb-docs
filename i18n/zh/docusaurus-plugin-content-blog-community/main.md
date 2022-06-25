@@ -44,7 +44,7 @@ StoneDB 社区由用户、贡献者和社区独有的文化所组成。他们将
 ```custom-subscribe
 ```
 
-## 如何贡献  [查看全部](#123 "type:btnMore") {#share}
+<!-- ## 如何贡献  [查看全部](#123 "type:btnMore") {#share}
 ```custom-docLinksList
 - [体验StoneDB数据库](/docs/download "type:export")
 - [签署CLA](#123 "type:export")
@@ -62,11 +62,11 @@ StoneDB 社区由用户、贡献者和社区独有的文化所组成。他们将
     - [社区角色说明](#123 "type:export")
     - [技术委员会](#123 "type:export")
     - [项目管理委员会](#123 "type:export")
-```
+``` -->
 
 
 
-## 代码标准  [查看全部](#123 "type:btnMore") {#standard}
+<!-- ## 代码标准  [查看全部](#123 "type:btnMore") {#standard}
 ```custom-docLinksList fourth
 - [代码规范](#123 "type:export")
 - [源文件](#123 "type:export")
@@ -82,4 +82,4 @@ StoneDB 社区由用户、贡献者和社区独有的文化所组成。他们将
 - [类型转换](#123 "type:export")
 - [字符串，对象，数组](#123 "type:export")
 - [其他](#123 "type:export")
-```
+``` -->
