@@ -36,7 +36,7 @@ const Download: React.FC = () => {
   }
 
   const gotoStart = () => {
-    history.push('/docs/intro');
+    history.push('/docs/getting-started/quick-start');
   }
 
   useEffect(() => {
