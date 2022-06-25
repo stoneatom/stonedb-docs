@@ -40,7 +40,9 @@ sudo apt install ncurses-dev
 sudo apt install libsnappy-dev
 ```
 :::info
+
 Ensure that all the dependencies are installed. Otherwise, a large number of errors will be reported.
+
 :::
 ### 2. Decompress the source code package of GCC 7.3.0
 
@@ -74,10 +76,13 @@ vim sanitizer_platform_limits_posix.cc
 #endif
   unsigned struct_ustat_sz = SIZEOF_STRUCT_USTAT;
 ```
-![image.png]()
+
+*Here's a picture to add*
 
 :::info
+
 If GCC is compiled without the modification, an error will be reported, indicating that **sys/ustat.h** does not exist.
+
 :::
 
 ### 4. Compile GCC
@@ -148,7 +153,7 @@ make && make install
 ```
 The directories and files shown in the following figure are generated in directory **/usr/local/stonedb-marisa**.
 
-![image.png]()
+*Here's a picture to add*
 
 1. Install GCC 4.8.5 in an offline manner and configure it to be the default version.
 ```shell
@@ -198,7 +203,7 @@ make install-static INSTALL_PATH=/usr/local/stonedb-gcc-rocksdb
 ```
 The directories and files shown in the following figure are generated in directory **/usr/local/stonedb-gcc-rocksdb**.
 
-![image.png]()
+*Here's a picture to add*
 
 1. Switch the GCC version back to 7.3.0. Otherwise, errors will be reported.
 ```shell
@@ -211,18 +216,21 @@ sudo ln -s /gcc/bin/g++ /usr/bin/g++
 6. Install Boost.
 
 Boost can be automatically installed when you execute the **stonedb_build.sh** script stored in directory** /stonedb2022/scripts**. The following code shows how to manually install Boost.
+
 ```shell
 tar -zxvf boost_1_66_0.tar.gz
 cd boost_1_66_0
 ./bootstrap.sh --prefix=/usr/local/stonedb-boost
 ./b2 install --with=all
 ```
+
 The files and directories shown in the following figure are generated in directory **/usr/local/stonedb-boost**.
 
-![image.png]()
+*Here's a picture to add*
 ### 3. Compile StoneDB
 
 1. Modify script** stonedb_build.sh**.
+
 ```shell
 vim /stonedb2022/scripts/stonedb_build.sh
 cmake ../../ \
@@ -248,11 +256,14 @@ cmake ../../ \
 cd /stonedb2022/scripts/
 ./stonedb_build.sh
 ```
+
 After the compilation is complete, directory **/stonedb56** is generated.
 
 :::info
+
 - Because Boost in this example is manually installed, the value of **-DWITH_BOOST** must be set to **/usr/local/stonedb-boost/include**.
 - For compatibility purposes, **-DCMAKE_CXX_FLAGS='-D_GLIBCXX_USE_CXX11_ABI=0** must be included in the script. Otherwise, an error will be reported when the complication progress reaches 82%.
+
 :::
 ## Step 3. Start StoneDB
 Perform the following steps to start StoneDB.

@@ -5,15 +5,17 @@ sidebar_position: 5.15
 
 # Compile StoneDB in a Docker Container
 
-# **Introduction**
+## Introduction
 Compiling StoneDB on a physical server requires installation of third-party repositories, which is complicated. In addition, if the OS in your environment is Fedora or Ubuntu, you also need to install many dependencies. We recommend that you compile StoneDB in a Docker container. After StoneDB is compiled, you can directly run StoneDB in the container or copy the compilation files to your environment.
-# Prerequisites
+## Prerequisites
 Docker has been installed. For information about how to install Docker, visit [https://docs.docker.com/engine/install/ubuntu/](https://docs.docker.com/engine/install/ubuntu/).
-# **Use a Dockerfile in a compilation environment**
-## Step 1. **Download the source code of StoneDB and docker.zip**
+
+## Use a Dockerfile in a compilation environment
+### Step 1. Download the source code of StoneDB and docker.zip
+
 Download file **docker.zip**, save the file to the root directory of the source code of StoneDB, and then decompress the file.
 
-[docker.zip]()
+*docker.zip(waiting)*
 
 ```bash
 [root@testOS src]# cd /home/src/
@@ -40,7 +42,7 @@ docker
 
 0 directories, 6 files
 ```
-## Step 2. Build a Docker image
+### Step 2. Build a Docker image
 ```bash
 [root@testOS atomstore2022]# cd docke
 [root@testOS docker]# chmod u+x docker_build.sh
@@ -96,7 +98,7 @@ Successfully tagged stonedb_buildenv:v0.1
 Docker build success!you can run it:
         docker run -d -p 23306:3306 -v /home/src:/home/ stonedb_buildenv:v0.1
 ```
-## Step 3. Enter the container and compile StoneDB
+### Step 3. Enter the container and compile StoneDB
 ```bash
 # docker run parameter description
 # -v Directory mounting. Specify the directory on the host first and then the directory in the container.
@@ -156,15 +158,16 @@ Switched to a new branch '0.5'
 [root@06f1f385d3b3 build]# make install
 ```
 
-# (Optional) Follow-up operations
+## (Optional) Follow-up operations
 After the `make` commands are successful, you can choose either to compress the compilation files to a TAR file and copy the TAR file from the container or to directly run it in the container.
-## Compress compilation files to a TAR file
+### Compress compilation files to a TAR file
 ```bash
 # Compress the 'home' folder to a TAR file and mount the TAR file to a directory outside the container.
 [root@06f1f385d3b3 build]# tar -zcPvf /home/stonedb56.tar.gz /stonedb56/
 ```
-## Directly use StoneDB in the container
+### Directly use StoneDB in the container
 You can refer to [Quick Deployment](https://stoneatom.yuque.com/staff-ft8n1u/dghuxr/pv8ath) or the following code to deploy and use StoneDB in the container.
+
 ```bash
 [root@06f1f385d3b3 build]# cd /stonedb56/install/
 
