@@ -11,7 +11,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import {modifyKeyName} from '@site/src/utils';
 import {LinkSocial, Link, LinkIcon, LinkBtn} from '@site/src/components';
 
-export default function MDXA({url = '', children, title, ...props}: any): JSX.Element {
+export default function MDXA({url = '', children, title, href, ...props}: any): JSX.Element {
   const {
     i18n: {currentLocale}
   } = useDocusaurusContext();
@@ -30,22 +30,22 @@ export default function MDXA({url = '', children, title, ...props}: any): JSX.El
     <>
       {
         isLink && currentLocale === data.local  ? (
-          <Link to={url}>{children}</Link>
+          <Link to={url || href}>{children}</Link>
         ) : null
       }
       {
         isLinkSocial && currentLocale === data.local ? (
-          <LinkSocial to={url} icon={data.icon}>{children}</LinkSocial>
+          <LinkSocial to={url || href} icon={data.icon}>{children}</LinkSocial>
         ) : null
       }
       {
         isLinkIcon && currentLocale === data.local ? (
-          <LinkIcon to={url}>{children}</LinkIcon>
+          <LinkIcon to={url || href}>{children}</LinkIcon>
         ) : null
       }
       {
         isLinkBtnMore && currentLocale === data.local ? (
-          <LinkBtn to={url}>{children}</LinkBtn>
+          <LinkBtn to={url || href}>{children}</LinkBtn>
         ) : null
       }
     </>

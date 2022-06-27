@@ -19,6 +19,9 @@ export const DD = styled.dd`
   @media (max-width: 996px){
     width: 100%;
   }
+  a: hover{
+    text-decoration: underline;
+  }
 `
 
 export const DT = styled.dt`

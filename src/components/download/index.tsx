@@ -32,11 +32,11 @@ const Download: React.FC = () => {
   }
 
   const gotoDownload = () => {
-    history.push('/docs/download');
+    history.push('docs/download');
   }
 
   const gotoStart = () => {
-    history.push('/docs/getting-started/quick-start');
+    history.push('docs/getting-started/quick-start');
   }
 
   useEffect(() => {

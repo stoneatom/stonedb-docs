@@ -337,5 +337,41 @@
   },
   "subscribe.tip.btn": {
     "message": "马上订阅"
+  },
+  "home.bug.desc.1": {
+    "message": "想要提出功能需求，"
+  },
+  "home.bug.desc.2": {
+    "message": "使用求助"
+  },
+  "home.bug.desc.3": {
+    "message": "或者"
+  },
+  "home.bug.desc.4": {
+    "message": "反馈bug?"
+  },
+  "home.slack.title": {
+    "message": "Join our slack workspace!"
+  },
+  "home.slack.desc": {
+    "message": ". We will invite you in."
+  },
+  "home.release.title": {
+    "message": "Release AtomStore 1.0.0"
+  },
+  "home.release.desc": {
+    "message": "is released. Go to downloads page to find …"
+  },
+  "theme.PwaReloadPopup.info": {
+    "message": "有可用的新版本",
+    "description": "The text for PWA reload popup"
+  },
+  "theme.PwaReloadPopup.refreshButtonText": {
+    "message": "刷新",
+    "description": "The text for PWA reload button"
+  },
+  "theme.PwaReloadPopup.closeButtonAriaLabel": {
+    "message": "关闭",
+    "description": "The ARIA label for close button of PWA reload popup"
   }
 }

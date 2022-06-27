@@ -6,6 +6,7 @@ export const LinkStyle = styled.a`
   color: #373C43;
   &:hover{
     color: #00A6FB;
+    text-decoration: underline;
   }
 `
 

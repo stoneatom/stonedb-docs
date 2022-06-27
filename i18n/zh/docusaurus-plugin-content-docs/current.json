@@ -2,5 +2,41 @@
   "version.label": {
     "message": "Next",
     "description": "The label for version current"
+  },
+  "sidebar.autoSidebar.category.About StoneDB": {
+    "message": "About StoneDB",
+    "description": "The label for category About StoneDB in sidebar autoSidebar"
+  },
+  "sidebar.autoSidebar.category.Environment Requirements": {
+    "message": "Environment Requirements",
+    "description": "The label for category Environment Requirements in sidebar autoSidebar"
+  },
+  "sidebar.autoSidebar.category.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label for category Getting Started in sidebar autoSidebar"
+  },
+  "sidebar.autoSidebar.category.O&M Guide": {
+    "message": "O&M Guide",
+    "description": "The label for category O&M Guide in sidebar autoSidebar"
+  },
+  "sidebar.autoSidebar.category.Monitoring and Alerting": {
+    "message": "Monitoring and Alerting",
+    "description": "The label for category Monitoring and Alerting in sidebar autoSidebar"
+  },
+  "sidebar.autoSidebar.category.Backup and Recovery": {
+    "message": "Backup and Recovery",
+    "description": "The label for category Backup and Recovery in sidebar autoSidebar"
+  },
+  "sidebar.autoSidebar.category.Developer Guide": {
+    "message": "Developer Guide",
+    "description": "The label for category Developer Guide in sidebar autoSidebar"
+  },
+  "sidebar.autoSidebar.category.Compiling Methods": {
+    "message": "Compiling Methods",
+    "description": "The label for category Compiling Methods in sidebar autoSidebar"
+  },
+  "sidebar.autoSidebar.category.Connect to StoneDB": {
+    "message": "Connect to StoneDB",
+    "description": "The label for category Connect to StoneDB in sidebar autoSidebar"
   }
 }
