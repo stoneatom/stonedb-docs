@@ -357,7 +357,7 @@
     "message": ". We will invite you in."
   },
   "home.release.title": {
-    "message": "Release AtomStore 1.0.0"
+    "message": "Release StoneDB 1.0.0"
   },
   "home.release.desc": {
     "message": "is released. Go to downloads page to find …"
