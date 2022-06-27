@@ -9,12 +9,12 @@ This topic describes the bitwise operators supported by StoneDB.
 
 | **Operator** | **Description** |
 | --- | --- |
-| & | Bitwise AND |
+| `&` | Bitwise AND |
 | &#124; | Bitwise OR |
-| ^ | Bitwise XOR |
-| ! | Bitwise inversion |
-| << | Left shift |
-| >> | Right shift |
+| `^` | Bitwise XOR |
+| `!` | Bitwise inversion |
+| `<<` | Left shift |
+| `>>` | Right shift |
 
 Bitwise operators are used to operate on binary numbers. In a bitwise operation, the involved numbers are first converted to binary numbers to compute the result, and then the result is converted back to a decimal value.
 

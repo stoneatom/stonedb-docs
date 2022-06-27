@@ -9,11 +9,11 @@ This topic describes the arithmetic operators supported by StoneDB.
 
 | **Operator** | **Description** |
 | --- | --- |
-| + | Addition operator |
-| - | Minus operator |
-| * | Multiplication operator |
-| /, div | Division operator |
-| %, mod | Modulo operator |
+| `+` | Addition operator |
+| `-` | Minus operator |
+| `*` | Multiplication operator |
+| `/`, `div` | Division operator |
+| `%`, `mod` | Modulo operator |
 
 The following code provides an example of using each operator.
 
