@@ -4,39 +4,39 @@
     "description": "The label for version current"
   },
   "sidebar.autoSidebar.category.About StoneDB": {
-    "message": "About StoneDB",
+    "message": "关于StoneDB",
     "description": "The label for category About StoneDB in sidebar autoSidebar"
   },
   "sidebar.autoSidebar.category.Environment Requirements": {
-    "message": "Environment Requirements",
+    "message": "环境要求",
     "description": "The label for category Environment Requirements in sidebar autoSidebar"
   },
   "sidebar.autoSidebar.category.Getting Started": {
-    "message": "Getting Started",
+    "message": "快速上手",
     "description": "The label for category Getting Started in sidebar autoSidebar"
   },
   "sidebar.autoSidebar.category.O&M Guide": {
-    "message": "O&M Guide",
+    "message": "运维管理",
     "description": "The label for category O&M Guide in sidebar autoSidebar"
   },
   "sidebar.autoSidebar.category.Monitoring and Alerting": {
-    "message": "Monitoring and Alerting",
+    "message": "监控警告",
     "description": "The label for category Monitoring and Alerting in sidebar autoSidebar"
   },
   "sidebar.autoSidebar.category.Backup and Recovery": {
-    "message": "Backup and Recovery",
+    "message": "备份与恢复",
     "description": "The label for category Backup and Recovery in sidebar autoSidebar"
   },
   "sidebar.autoSidebar.category.Developer Guide": {
-    "message": "Developer Guide",
+    "message": "开发者指南",
     "description": "The label for category Developer Guide in sidebar autoSidebar"
   },
   "sidebar.autoSidebar.category.Compiling Methods": {
-    "message": "Compiling Methods",
+    "message": "编译方法",
     "description": "The label for category Compiling Methods in sidebar autoSidebar"
   },
   "sidebar.autoSidebar.category.Connect to StoneDB": {
-    "message": "Connect to StoneDB",
+    "message": "连接 StoneDB 数据库",
     "description": "The label for category Connect to StoneDB in sidebar autoSidebar"
   }
 }
