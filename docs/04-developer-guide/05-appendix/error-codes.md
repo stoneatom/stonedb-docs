@@ -3,6 +3,7 @@ id: error-codes
 sidebar_position: 5.63
 ---
 
+# Error Codes
 
 This topic describes the common error codes that may be returned in StoneDB.
 
