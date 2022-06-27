@@ -9,20 +9,20 @@ This topic describes the comparison operators supported StoneDB.
 
 | **Operator** | **Description** |
 | --- | --- |
-| = | Equal operator |
-| >  | Greater than operator |
-| <  | Less than operator |
-| >= | Greater than or equal operator |
-| <= | Less than or equal operator |
-| !=, <> | Not equal operator |
-| <=> | NULL-safe equal operator |
-| BETWEEN… AND… | Whether a value is within a value range |
-| IN | Whether a value is within a set of values |
-| NOT IN | Whether a value is not within a set of values |
-| LIKE | Simple pattern matching |
-| regexp | Regular expression |
-| IS NULL | NULL value test |
-| IS NOT NULL | NOT NULL value test |
+| `=` | Equal operator |
+| `>`  | Greater than operator |
+| `<`  | Less than operator |
+| `>=` | Greater than or equal operator |
+| `<=` | Less than or equal operator |
+| `!=`, `<>` | Not equal operator |
+| `<=>` | NULL-safe equal operator |
+| `BETWEEN… AND…` | Whether a value is within a value range |
+| `IN` | Whether a value is within a set of values |
+| `NOT IN` | Whether a value is not within a set of values |
+| `LIKE` | Simple pattern matching |
+| `regexp` | Regular expression |
+| `IS NULL` | NULL value test |
+| `IS NOT NULL` | NOT NULL value test |
 
 The following code provides an example of using each operator.
 
@@ -146,5 +146,4 @@ The following code provides an example of using each operator.
 |               1 |
 +-----------------+
 1 row in set (0.00 sec)
-
 ```
