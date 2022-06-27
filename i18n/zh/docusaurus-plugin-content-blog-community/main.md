@@ -17,6 +17,9 @@ StoneDB 社区由用户、贡献者和社区独有的文化所组成。他们将
 - ![Nliver](https://avatars.githubusercontent.com/u/34496563?v=4 "title:Nliver,to://github.com/Nliver")
 - ![Yeekin-](https://avatars.githubusercontent.com/u/101704468?v=4 "title:Yeekin-,to://github.com/Yeekin-GYJ")
 - ![MaJun](https://avatars.githubusercontent.com/u/64419837?v=4 "title:MaJun,to://github.com/leizzboy")
+- ![LuiciferYi](https://avatars.githubusercontent.com/u/24913493?v=4 "title:LuiciferYi,to://github.com/LuiciferYi")
+- ![litaihong](https://avatars.githubusercontent.com/u/79444526?v=4 "title:litaihong,to://github.com/lylth")
+- ![haitaoguan](https://avatars.githubusercontent.com/u/105625912?v=4 "title:haitaoguan,to://github.com/haitaoguan")
 ```
 
 
