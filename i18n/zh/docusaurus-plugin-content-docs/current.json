@@ -38,5 +38,53 @@
   "sidebar.autoSidebar.category.Connect to StoneDB": {
     "message": "连接 StoneDB 数据库",
     "description": "The label for category Connect to StoneDB in sidebar autoSidebar"
+  },
+  "sidebar.autoSidebar.category.Create and Manage Database Objects": {
+    "message": "创建和管理数据库对象",
+    "description": "The label for category Connect to StoneDB in sidebar autoSidebar"
+  },
+  "sidebar.autoSidebar.category.Appendix": {
+    "message": "附录",
+    "description": "The label for category Connect to StoneDB in sidebar autoSidebar"
+  },
+  "sidebar.autoSidebar.category.SQL Reference": {
+    "message": "SQL 参考",
+    "description": "The label for category Connect to StoneDB in sidebar autoSidebar"
+  },
+  "sidebar.autoSidebar.category.Operators": {
+    "message": "运算符",
+    "description": "The label for category Connect to StoneDB in sidebar autoSidebar"
+  },
+  "sidebar.autoSidebar.category.Functions": {
+    "message": "函数",
+    "description": "The label for category Connect to StoneDB in sidebar autoSidebar"
+  },
+  "sidebar.autoSidebar.category.Performance Tuning": {
+    "message": "性能优化",
+    "description": "The label for category Connect to StoneDB in sidebar autoSidebar"
+  },
+  "sidebar.autoSidebar.category.Performance Monitoring Tools": {
+    "message": "性能相关工具",
+    "description": "The label for category Connect to StoneDB in sidebar autoSidebar"
+  },
+  "sidebar.autoSidebar.category.Database Tuning": {
+    "message": "数据库优化",
+    "description": "The label for category Connect to StoneDB in sidebar autoSidebar"
+  },
+  "sidebar.autoSidebar.category.Architecture Tuning": {
+    "message": "架构优化",
+    "description": "The label for category Connect to StoneDB in sidebar autoSidebar"
+  },
+  "sidebar.autoSidebar.category.Performance Tests": {
+    "message": "性能测试",
+    "description": "The label for category Connect to StoneDB in sidebar autoSidebar"
+  },
+  "sidebar.autoSidebar.category.Data Migration to StoneDB": {
+    "message": "向StoneDB迁移数据",
+    "description": "The label for category Connect to StoneDB in sidebar autoSidebar"
+  },
+  "sidebar.autoSidebar.category.Troubleshooting": {
+    "message": "故障诊断",
+    "description": "The label for category Connect to StoneDB in sidebar autoSidebar"
   }
 }
