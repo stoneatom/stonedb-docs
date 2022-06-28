@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkstoneDB=self.webpackChunkstoneDB||[]).push([[8871],{89077:function(n,e,d){d.r(e);var o=d(32125).ZP.div.withConfig({displayName:"panel__Panel",componentId:"sc-1g9j07-0"})(["width:100%;padding:80px 0;background-color:",";overflow:hidden;@media (max-width:996px){padding:0;}"],(function(n){return n.color||"#fff"}));e.default=o}}]);
