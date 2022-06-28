@@ -12,7 +12,7 @@ sidebar_position: 3.1
 
 ## 上传tar包并解压
 ```
-tar -zxvf stonedb-build_stonedb5.7_0.1_x86_64_CentOS7.9.2009_Release_2022-05-17_12_06.bin.tar.gz
+tar -zxvf stonedb-ce-5.6-v1.0.0.el7.x86_64.tar.gz
 ```
 上传至安装目录，解压出来的文件夹名是stonedb。
 ## 检查依赖文件
