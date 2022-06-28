@@ -6,6 +6,10 @@ sidebar_position: 3.1
 # 快速部署
 
 为方便用户快速上手，安装包是已经编译好的，只需要检查自己的环境是否缺少依赖。
+
+## 下载安装包
+点击[此处](../download.md)下载最新的安装包。
+
 ## 上传tar包并解压
 ```
 tar -zxvf stonedb-build_stonedb5.7_0.1_x86_64_CentOS7.9.2009_Release_2022-05-17_12_06.bin.tar.gz

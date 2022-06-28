@@ -5,6 +5,9 @@ sidebar_position: 3.1
 
 # Quick Deployment
 
+## Download the latest package
+Click [here](../download.md) to download the latest installation package of StoneDB.
+
 ## Upload and decompress the TAR package
 
 ```bash
