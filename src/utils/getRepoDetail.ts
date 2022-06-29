@@ -5,6 +5,10 @@ const instance = axios.create({
 });
 
 export async function getRepoDetail(name: string): Promise<any> {
-  const res = await instance.get('https://api.github.com/repos/' + name);
-  return res.data;
+  try{
+    const res = await instance.get('https://api.github.com/repos/' + name);
+    return res.data;
+  } catch(err) {
+    return {}
+  }
 }
