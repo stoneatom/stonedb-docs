@@ -12,7 +12,6 @@ const checkInterLink = (to: string) => {
 export const Link: React.FC<ILink> = ({to, children, className}) => {
   const history = useHistory();
   const isInterLink = checkInterLink(to);
-  console.log('isInterLink', to, isInterLink)
   let options = isInterLink ? {
     onClick: () => {
       history.push(to);

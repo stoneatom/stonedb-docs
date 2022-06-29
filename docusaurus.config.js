@@ -146,7 +146,6 @@ const config = {
   //   'https://unpkg.com/libpag@latest/lib/libpag.min.js',
   // ],
   plugins: [
-    require.resolve("./plugins/fetch-repo/index"),
     [
       "docusaurus-plugin-less", 
       {
