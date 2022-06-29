@@ -11,7 +11,7 @@ Click [here](../download.md) to download the latest installation package of Ston
 ## Upload and decompress the TAR package
 
 ```bash
-tar -zxvf stonedb-build_stonedb5.7_0.1_x86_64_CentOS7.9.2009_Release_2022-05-17_12_06.bin.tar.gz
+tar -zxvf stonedb-ce-5.6-v1.0.0.el7.x86_64.tar.gz
 ```
 
 Upload the installation package to the directory. The name of the folder extracted from the package is **stonedb**.
