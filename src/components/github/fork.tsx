@@ -7,7 +7,7 @@ export const Fork: React.FC = () => {
   const data: any = useGlobalData();
   const {repo: {forks_count}} = data["fetch-repo"].default;
   return (
-    <Social title="Fork" value={forks_count}>
+    <Social title="Fork" value={forks_count} to="https://github.com/stoneatom/stonedb">
       <ForkOutlined />
     </Social>
   );

@@ -12,7 +12,6 @@ module.exports = () => ({
     return data.message === 'Not Found' ? {} : data;
   },
   async contentLoaded({ content, actions }) {
-    console.log('content', content)
     const { setGlobalData } = actions
     setGlobalData({ repo: content })
   },

@@ -6,8 +6,9 @@ import {Social} from '../social';
 export const Star: React.FC = () => {
   const data: any = useGlobalData();
   const {repo: {stargazers_count}} = data["fetch-repo"].default;
+
   return (
-    <Social title="Star" value={stargazers_count}>
+    <Social title="Star" value={stargazers_count} to="https://github.com/stoneatom/stonedb">
       <GithubOutlined />
     </Social>
   );

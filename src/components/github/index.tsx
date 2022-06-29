@@ -29,9 +29,6 @@ export class Github extends React.Component<any> {
     return (
       <GithubStyle className={this.props.className}>
         {this.props.children}
-        {this.hasChildren() ? null : (
-          <LinkIcon className='link' to="https://github.com/stoneatom/stonedb">GitHub</LinkIcon>
-        )}
       </GithubStyle>
     );
   }
