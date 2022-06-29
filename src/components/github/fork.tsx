@@ -1,13 +1,11 @@
 import React from 'react';
 import {ForkOutlined} from '@ant-design/icons';
-import useGlobalData from '@docusaurus/useGlobalData';
+import {IFork} from './interface';
 import {Social} from '../social';
 
-export const Fork: React.FC = () => {
-  const data: any = useGlobalData();
-  const {repo: {forks_count}} = data["fetch-repo"].default;
+export const Fork: React.FC<IFork> = ({value}) => {
   return (
-    <Social title="Fork" value={forks_count} to="https://github.com/stoneatom/stonedb">
+    <Social title="Fork" value={value} to="https://github.com/stoneatom/stonedb">
       <ForkOutlined />
     </Social>
   );
