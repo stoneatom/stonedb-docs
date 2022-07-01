@@ -8,9 +8,9 @@ export const LinkItemStyle = styled.div`
 
 export const Link = styled(ULink)`
   font-size: 30px;
-  color: var(--safe-text-color-secondary-dark);
+  color: #CBCDD3;
   &:hover{
-    color: var(--safe-text-color-dark);
+    color: #646A7D;
   }
 `;
 
