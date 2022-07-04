@@ -4,7 +4,7 @@
         <title>StoneDB Blog</title>
         <link>https://stonedb.io/zh/community</link>
         <description>StoneDB Blog</description>
-        <lastBuildDate>Mon, 04 Jul 2022 07:41:50 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 Jul 2022 08:57:28 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[main]]></title>
             <link>https://stonedb.io/zh/community/main</link>
             <guid>/main</guid>
-            <pubDate>Mon, 04 Jul 2022 07:41:50 GMT</pubDate>
+            <pubDate>Mon, 04 Jul 2022 08:57:28 GMT</pubDate>
             <description><![CDATA[社区]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="community">社区<a class="hash-link" href="#community" title="标题的直接链接">​</a></h2><p>StoneDB 社区由用户、贡献者和社区独有的文化所组成。他们将我们的社区团结起来，激发了许多新想法的诞生与社区成员间的协作和学习。StoneDB 是一个开放且活跃的社区，我们鼓励社区成员提交 issue 和 PR、向外宣传 StoneDB，并做出其他有利他人的贡献。</p><p>请继续往下阅读，了解你可以如何参与并成为 StoneDB 社区的一份子。</p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="team">贡献团队<a class="hash-link" href="#team" title="标题的直接链接">​</a></h2><div class="styles__Row-sc-10csc5s-0 beRoKW"><div class="styles__Button-sc-1egurj6-0 eTjAth">展开<span role="img" aria-label="down" class="anticon anticon-down"><svg viewBox="64 64 896 896" focusable="false" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path></svg></span></div></div><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="join">加入社区<a class="hash-link" href="#join" title="标题的直接链接">​</a></h2><div class="styles__LinkList-sc-aigwwo-0 bwkjHv"></div>]]></content:encoded>
         </item>
