@@ -6,7 +6,7 @@ import {Span} from './styles';
 
 const Icon = createFromIconfontCN({
     scriptUrl: [
-        '//at.alicdn.com/t/font_3269731_buv0abhgp5m.js'
+        '//static.stoneatom.com/assets/rc-upload-1656646066193-4_iconfont.js'
     ],
   });
 
